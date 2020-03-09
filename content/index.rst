@@ -10,38 +10,20 @@ Inhalt
 ------
 
 .. toctree::
-  :maxdepth: 1
+  :maxdepth: 3
 
+  aufbau_gliederung/index
+  elemente/index
+  darstellung/index
+  text/index
   druck_publikation/index
-
-Inhalt
-------
-
-* Text
-* Struktur
-* Zitate
-
-Darstellung
------------
-
-* Layout
-* Schriftgestalltung
-* Abbildungen und Diagramme
-
-Druck und Publikation
------------
-
-* Drucken
-* Online
-
-Technik
--------
-
-* MSWord
-* OpenOffice
-* Latex
-* PDF
+  technik/index
 
 
-Literatur
----------
+Artikel des Monats
+------------------
+
+.. toctree::
+  :maxdepth: 3
+
+  {{ mastertoc() }}
