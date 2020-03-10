@@ -15,7 +15,7 @@ import utila
 import writers
 
 
-def generate()->int:
+def generate() -> int:
     tmp = writers.tmp()
     os.makedirs(tmp, exist_ok=True)
 
