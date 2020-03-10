@@ -16,10 +16,7 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__)))
 
 def root():
     current = os.path.dirname(__file__)
-    if os.path.exists(os.path.join(current, '../.baw')):
-        # dev mode
-        current = os.path.join(current, '..')
-    current = os.path.abspath(current)
+    current = os.path.join(current, '..')
     return current
 
 

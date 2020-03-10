@@ -7,6 +7,7 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
-import writers.generator
+import writers.cli
 
-writers.generator.generate()
+if __name__ == "__main__":
+    writers.cli.main()

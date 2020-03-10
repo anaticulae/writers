@@ -6,3 +6,31 @@
 # use or distribution is an offensive act against international law and may
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
+
+import utila
+import utila.cli
+
+import writers
+import writers.generator
+
+
+@utila.saveme
+def main():
+    commands = [
+        utila.cli.Flag('--generate', message=('generate documents')),
+        utila.cli.Flag('--run', message=('run webserver')),
+    ]
+    parser = utila.cli.create_parser(
+        todo=commands,
+        config=utila.ParserConfiguration(
+            outputparameter=False,
+            inputparameter=False,
+            prefix=False,
+        ),
+        version=writers.__version__,
+    )
+    args = utila.parse(parser)
+    if args['generate']:
+        if writers.generator.generate():
+            return utila.FAILURE
+    return utila.SUCCESS

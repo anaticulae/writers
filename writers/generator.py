@@ -15,7 +15,7 @@ import utila
 import writers
 
 
-def generate() -> int:
+def generate(show: bool = False, verbose: bool = True) -> int:
     tmp = writers.tmp()
     os.makedirs(tmp, exist_ok=True)
 
@@ -31,8 +31,11 @@ def generate() -> int:
         utila.log(completed.stderr)
         return completed.returncode
 
-    utila.log(completed.stdout)
-    html = writers.html()
-    assert os.path.exists(html), html
-    webbrowser.open(html)
+    if verbose:
+        utila.log(completed.stdout)
+
+    if show:
+        html = writers.html()
+        assert os.path.exists(html), html
+        webbrowser.open(html)
     return utila.SUCCESS
