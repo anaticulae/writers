@@ -4,7 +4,7 @@ Schreibhilfe
 Auf den folgenden Seiten erhalten Sie eine Zusammenfassung von Themen
 zum wissenschaftlichen Schreiben. Diese Artikel enthalten weitere
 Verweise mit vertiefenden Informationen. Weiterhin weisen einige Artikel
-spezielle Tipps fuer verschiedene Texteditoren auf.
+spezielle Tipps für verschiedene Texteditoren auf.
 
 Inhalt
 ------

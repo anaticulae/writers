@@ -8,7 +8,7 @@ Textverarbeitung
 * MSWord
 * OpenOffice
 
-Weiterfuehrende Informationen
+Weiterführende Informationen
 -----------------------------
 
 * PDF

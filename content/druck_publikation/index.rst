@@ -7,7 +7,7 @@ Druck
 Vorbereitung
 ~~~~~~~~~~~~
 
-Durchfuehrung
+Durchführung
 ~~~~~~~~~~~~~
 
 Korrektur

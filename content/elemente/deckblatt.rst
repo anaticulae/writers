@@ -5,20 +5,20 @@ Deckblatt - Titelblatt
 
 Das Deckblatt bildet den Einstiegspunkt Ihrer Publikation und erzeugt
 den ersten Eindruck Ihrer Arbeit, daher sollte beim Erstellen grosse
-Sorgfalt auf Korrektheit und Vollstaendingkeit gelegt werden. Je nach
-Pruefungsordnung variieren die zwingend notwendigen Angaben.
+Sorgfalt auf Korrektheit und Vollständingkeit gelegt werden. Je nach
+Prüfungsordnung variieren die zwingend notwendigen Angaben.
 
 Zwingend notwendige Angaben
 ---------------------------
 
-* Titel und Untertitel der Pruefungsleistung
+* Titel und Untertitel der Prüfungsleistung
 * Name des Verfassers
 * Matrikelnummer
 * Art der Leistung (Studienarbeit, Bachelorarbeit, Masterarbeit oder Dissertation)
 * Studiengang
-* Name der Universitaet
-* Name und vollstaendinge akademische Titel der Prueferinnen und Pruefer
-* Fakultaet, Institut
+* Name der Universität
+* Name und vollständinge akademische Titel der Prüferinnen und Prüfer
+* Fakultät, Institut
 
 Optionale Angabe
 ----------------
@@ -33,8 +33,8 @@ Hinweise
 Der Titel sollte sich gut erkennbar von den weiteren Angaben abheben und
 den groessten Schriftgrad? aufweisen.
 
-Weitere Angaben entnehmen Sie bitte aus den Pruefungsordnungen bzw.
-Merkblaettern die am betreuenden Institut ausliegen.
+Weitere Angaben entnehmen Sie bitte aus den Prüfungsordnungen bzw.
+Merkblättern die am betreuenden Institut ausliegen.
 
 Vorlagen
 --------
