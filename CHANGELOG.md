@@ -2,6 +2,12 @@
 
 Every noteable change is logged here.
 
+## v0.1.2
+
+### Fix
+
+* run generate before run step (0b529aff244b)
+
 ## v0.1.1
 
 ### Fix
