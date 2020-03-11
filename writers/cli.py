@@ -31,7 +31,7 @@ def main():
         version=writers.__version__,
     )
     args = utila.parse(parser)
-    if args['generate']:
+    if args['generate'] or args['run']:
         if writers.generator.generate():
             return utila.FAILURE
     if args['run']:

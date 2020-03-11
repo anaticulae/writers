@@ -16,6 +16,7 @@ import writers
 
 
 def generate(show: bool = False, verbose: bool = True) -> int:
+    utila.log('generate docs')
     tmp = writers.tmp()
     os.makedirs(tmp, exist_ok=True)
 

@@ -8,7 +8,6 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
-import distutils.command.install
 import os
 import re
 
@@ -27,15 +26,6 @@ with open(os.path.join(ROOT, "requirements.txt"), mode='rt', encoding=UTF8) as f
     INSTALL_REQUIRES = [
         line for line in fp.readlines() if line and '#' not in line
     ]
-
-
-class InstallAndGenerate(distutils.command.install.install):
-
-    def run(self):
-        super().run()
-        import writers.generator
-        writers.generator.generate()
-
 
 if __name__ == "__main__":
     # allow setup.py to run from another directory
@@ -81,5 +71,4 @@ if __name__ == "__main__":
             'content.technik': ['*.rst'],
             'content': ['*.rst'],
         },
-        cmdclass={'install': InstallAndGenerate},
     )
