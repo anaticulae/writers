@@ -75,3 +75,7 @@ if __name__ == "__main__":
             'content': ['*.rst'],
         },
     )
+    # generate docs
+    import utila
+    completed = utila.run('writers --generate')  # pylint:disable=C0103
+    assert completed.returncode == utila.SUCCESS, str(completed)
