@@ -12,6 +12,7 @@ import utila.cli
 
 import writers
 import writers.generator
+import writers.web
 
 
 @utila.saveme
@@ -33,4 +34,8 @@ def main():
     if args['generate']:
         if writers.generator.generate():
             return utila.FAILURE
+    if args['run']:
+        if writers.web.run():
+            return utila.FAILURE
+
     return utila.SUCCESS

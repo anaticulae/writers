@@ -13,10 +13,13 @@ __version__ = '0.0.0'
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__)))
 
+PORT = 5555
+
 
 def root():
     current = os.path.dirname(__file__)
     current = os.path.join(current, '..')
+    current = os.path.abspath(current)
     return current
 
 
