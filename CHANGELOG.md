@@ -2,6 +2,12 @@
 
 Every noteable change is logged here.
 
+## v0.1.1
+
+### Fix
+
+* extend install command with html generation (2920dfd66389)
+
 ## v0.1.0
 
 ### Feature
