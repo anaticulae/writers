@@ -16,7 +16,6 @@ source_suffix = ['.rst']
 master_doc = 'index'
 
 language = "de"
-pygments_style = 'sphinx'
 
 html_theme = 'wclub'
 
