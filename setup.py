@@ -8,6 +8,7 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
+import distutils.command.install
 from os import chdir
 from os.path import abspath
 from os.path import dirname
@@ -29,6 +30,15 @@ with open(join(ROOT, "requirements.txt"), mode='rt', encoding=UTF8) as fp:
     INSTALL_REQUIRES = [
         line for line in fp.readlines() if line and '#' not in line
     ]
+
+
+class InstallAndGenerate(distutils.command.install.install):
+
+    def run(self):
+        super().run()
+        import writers.generator
+        writers.generator.generate()
+
 
 if __name__ == "__main__":
     # allow setup.py to run from another directory
@@ -74,8 +84,5 @@ if __name__ == "__main__":
             'content.technik': ['*.rst'],
             'content': ['*.rst'],
         },
+        cmdclass={'install': InstallAndGenerate},
     )
-    # generate docs
-    import utila
-    completed = utila.run('writers --generate')  # pylint:disable=C0103
-    assert completed.returncode == utila.SUCCESS, str(completed)
