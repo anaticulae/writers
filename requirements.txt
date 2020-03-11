@@ -10,5 +10,5 @@
 Sphinx==1.8.5
 Flask==1.0.2
 
-wclub==0.1.0
+wclub==0.2.4
 utila==1.15.1
