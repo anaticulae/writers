@@ -25,6 +25,7 @@ Developer
 .. toctree::
   :maxdepth: 1
 
+  howto
   todo
 
 Modules
@@ -40,4 +41,3 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-
