@@ -28,10 +28,10 @@ def show_welcome(page):
         return flask.render_template('index.html', errorpage=page)
 
 
-def create() -> flask.Flask:
+def create(path: str = None) -> flask.Flask:
     # Flask determines template- and static-folder automatically.
-    templates = writers.build()
-    static = os.path.join(writers.build(), '_static')
+    templates = writers.build() if path is None else path
+    static = os.path.join(templates, '_static')
     utila.log(f'template folder: {writers.build()}')
     result = flask.Flask(
         __name__,
