@@ -7,25 +7,15 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
-import pytest
 import utila
 
-import writers.generator
-import writers.web
-
-pytest_plugins = ['pytester', 'xdist']  # pylint: disable=invalid-name
+import tests
 
 
-@pytest.fixture
-def app(testdir):
-    """Create and configure a new app instance for each test."""
-    root = testdir.tmpdir
-    assert writers.generator.generate(path=root) == utila.SUCCESS
-    application = writers.web.create(path=root)
-    yield application
+def test_cli_help(monkeypatch):
+    tests.run_writers('--help', monkeypatch=monkeypatch)
 
 
-@pytest.fixture
-def client(app):  # pylint:disable=W0621
-    """A test client for the app."""
-    return app.test_client()
+@utila.skip_longrun
+def test_cli_generate(testdir, monkeypatch):
+    tests.run_writers('--generate', monkeypatch=monkeypatch)

@@ -6,3 +6,28 @@
 # use or distribution is an offensive act against international law and may
 # be prosecuted under federal law. Its content is company confidential.
 #==============================================================================
+
+import http
+
+import utila
+
+import writers
+import writers.cli
+
+
+def run_writers(cmd: str, monkeypatch) -> int:
+    returncode = utila.run_command(
+        cmd,
+        writers.PROCESS,
+        writers.cli.main,
+        success=True,
+        monkeypatch=monkeypatch,
+    )
+    return returncode
+
+
+def content(client, request: str):
+    response = client.get(request)
+    assert response.status_code == http.HTTPStatus.OK
+    # read binary data from response and convert them to str
+    return response.data.decode('utf8')

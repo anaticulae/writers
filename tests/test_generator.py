@@ -7,25 +7,23 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
+import os
+import webbrowser
+
 import pytest
 import utila
 
 import writers.generator
-import writers.web
-
-pytest_plugins = ['pytester', 'xdist']  # pylint: disable=invalid-name
 
 
-@pytest.fixture
-def app(testdir):
-    """Create and configure a new app instance for each test."""
+@utila.skip_longrun
+@pytest.mark.parametrize('show', [True, False])
+def test_generator_generate(show, testdir, monkeypatch):
     root = testdir.tmpdir
-    assert writers.generator.generate(path=root) == utila.SUCCESS
-    application = writers.web.create(path=root)
-    yield application
 
+    with monkeypatch.context() as context:
+        context.setattr(webbrowser, 'open', lambda x: x)
+        writers.generator.generate(path=root, show=show)
 
-@pytest.fixture
-def client(app):  # pylint:disable=W0621
-    """A test client for the app."""
-    return app.test_client()
+    index = os.path.join(root, 'index.html')
+    assert os.path.exists(index), str(index)

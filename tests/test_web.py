@@ -7,25 +7,16 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
-import pytest
-import utila
-
-import writers.generator
-import writers.web
-
-pytest_plugins = ['pytester', 'xdist']  # pylint: disable=invalid-name
+import tests
 
 
-@pytest.fixture
-def app(testdir):
-    """Create and configure a new app instance for each test."""
-    root = testdir.tmpdir
-    assert writers.generator.generate(path=root) == utila.SUCCESS
-    application = writers.web.create(path=root)
-    yield application
+def test_web_run(client):
+    result = tests.content(client, '/')
+    assert len(result) > 300, str(result)
+    assert 'Schreibhilfe' in result
 
 
-@pytest.fixture
-def client(app):  # pylint:disable=W0621
-    """A test client for the app."""
-    return app.test_client()
+def test_web_run_page_not_found(client):
+    result = tests.content(client, '/this_page_is_not_there')
+    assert len(result) > 300, str(result)
+    assert 'Schreibhilfe' in result
