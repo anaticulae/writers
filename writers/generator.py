@@ -15,8 +15,8 @@ import utila
 import writers
 
 
-def generate(show: bool = False, verbose: bool = True) -> int:
-    utila.log('generate docs')
+def generate(show: bool = False, verbose: bool = False) -> int:
+    utila.call('generate docs')
     tmp = writers.tmp()
     os.makedirs(tmp, exist_ok=True)
 
@@ -28,8 +28,8 @@ def generate(show: bool = False, verbose: bool = True) -> int:
     completed = utila.run(cmd)
 
     if completed.returncode:
-        utila.log(completed.stdout)
-        utila.log(completed.stderr)
+        utila.info(completed.stdout)
+        utila.error(completed.stderr)
         return completed.returncode
 
     if verbose:
