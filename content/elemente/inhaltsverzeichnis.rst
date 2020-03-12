@@ -140,7 +140,7 @@ Vorlagen
 * Links
 
 Literatur und Quellen
------------------------------
+---------------------
 
 .. [#theissen2017_211] `Theissen:2017; Seite 211 <{amazon:theissen_2017}>`_.
 .. [#theissen2017_239] `Theissen:2017; Seite 239 <{amazon:theissen_2017}>`_.

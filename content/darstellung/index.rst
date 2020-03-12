@@ -4,18 +4,19 @@ Darstellung
 Layout
 ------
 
-Rand
-~~~~
+Seitenrand
+~~~~~~~~~~
 
-* Layout:
-- Format, DINA4
-- Rand
+:ref:`Weiterlesen... <darstellung_seitenrand_overview>`
 
-Absatze
-~~~~~~~
 
 Seitenzahlen
 ~~~~~~~~~~~~
+
+:ref:`Weiterlesen... <darstellung_seitenzahlen_overview>`
+
+Absaetze
+~~~~~~~
 
 Fusszeile
 ~~~~~~~~~
@@ -32,3 +33,12 @@ Schriftgestalltung
 * Schriftbild
 * Schriftarten
 * Hervorhebungen
+
+Tabellen
+--------
+
+Abbildungen
+-----------
+
+Verzeichnisse
+-------------

@@ -8,7 +8,7 @@ article
 
 * [x] table of content
 
-* [ ] page counts
+* [x] page counts
 
 * [ ] header and footer
 
