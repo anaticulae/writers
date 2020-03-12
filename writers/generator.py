@@ -15,14 +15,34 @@ import utila
 import writers
 
 
-def generate(show: bool = False, verbose: bool = False) -> int:
+def generate(
+        path: str = None,
+        show: bool = False,
+        verbose: bool = False,
+) -> int:
+    """Use Sphinx to generate documentation. If `path` is None the
+    default doc output location is used, if not path must exists and the
+    generator will put the generated files there.
+
+    Args:
+        path(str): path to write results
+        show(bool): if True open in webbrowser after generation
+        verbose(bool): describe what is beeing done
+    Returns:
+        Returncode of Sphinx generation process.
+    """
     utila.call('generate docs')
-    tmp = writers.tmp()
-    os.makedirs(tmp, exist_ok=True)
+    assert path is None or os.path.exists(path), str(path)
+
+    if path is None:
+        tmp = writers.tmp()
+        os.makedirs(tmp, exist_ok=True)
 
     source = writers.content()
-    build = writers.build()
-    os.makedirs(build, exist_ok=True)
+
+    build = writers.build() if path is None else path
+    if path is None:
+        os.makedirs(build, exist_ok=True)
 
     cmd = f'sphinx-build {source} {build} -j=auto'
     completed = utila.run(cmd)
@@ -37,6 +57,8 @@ def generate(show: bool = False, verbose: bool = False) -> int:
 
     if show:
         html = writers.html()
+        if path is None:
+            html = os.path.join(path, 'index.html')
         assert os.path.exists(html), html
         webbrowser.open(html)
     return utila.SUCCESS
