@@ -24,15 +24,17 @@ def main():
     parser = utila.cli.create_parser(
         todo=commands,
         config=utila.ParserConfiguration(
-            outputparameter=False,
             inputparameter=False,
+            outputparameter=False,
             prefix=False,
+            verboseflag=True,
         ),
         version=writers.__version__,
     )
     args = utila.parse(parser)
+    verbose = args['verbose'] is not None
     if args['generate'] or args['run']:
-        if writers.generator.generate():
+        if writers.generator.generate(verbose=verbose):
             return utila.FAILURE
     if args['run']:
         if writers.web.run():
