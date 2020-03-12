@@ -1,0 +1,39 @@
+.. _0_2_0:
+
+RP 0.2.0
+=========
+
+article
+-------
+
+* [ ] table of content
+
+* [ ] page counts
+
+* [ ] header and footer
+
+* [ ] footnotes
+
+* [ ] abbreviations
+
+optional
+--------
+
+* [ ] hit the border
+
+* [ ] distance between objects
+
+maintenance
+-----------
+
+* [ ] increase code coverage to 100%
+
+
+code quality
+------------
+
+before
+~~~~~~
+
+* Total coverage: 30.00%
+* Your code has been rated at 10.00/10
