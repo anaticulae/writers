@@ -75,8 +75,4 @@ Internet
 Literatur und weitere Quellen
 -----------------------------
 
-.. [#reference_1] `Link 1 <http://google.de>`_.
-
-.. [#reference_3] Theissen 2017
-
-.. [#reference_4] `Theissen:2017; Seite 208-209 <http://amazon.de>`_.
+.. [#theissen2017_208_209] `Theissen:2017; Seite 208-209 <{amazon:theissen_2017}>`_.

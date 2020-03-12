@@ -12,10 +12,10 @@ Formulierungen der Erklärung sind der Prüfungsordnung zu entnehmen.
 Die eidesstattliche Erklärung ist moeglichst **direkt nach dem
 Titelblatt** in die Arbeit einzufügen. Die eidesstattliche Erlärung
 wird nicht in das Inhaltsverzeichnis aufgenommen und hat keinerlei
-Einfluss auf die Seitenzählung. [#theissen_2017]_ Weiterhin ist diese
-mit Name des Authors, Ort, Datum und **handschriftlicher Unterschrift**
-zu versehen. Bei elektronischen Abgaben ist eine handschriftlich
-unterzeichnete Erklärung einzureichen.
+Einfluss auf die Seitenzählung. [#theissen2017_239_241]_ Weiterhin ist
+diese mit Name des Authors, Ort, Datum und **handschriftlicher
+Unterschrift** zu versehen. Bei elektronischen Abgaben ist eine
+handschriftlich unterzeichnete Erklärung einzureichen.
 
 Vorlagen
 --------
@@ -53,4 +53,4 @@ Beispiel 2
 Literatur und Quellen
 ---------------------
 
-.. [#theissen_2017] `Theissen:2017; Seite 239-241 <http://amazon.de>`_.
+.. [#theissen2017_239_241] `Theissen:2017; Seite 239_241 <{amazon:theissen_2017}>`_.
