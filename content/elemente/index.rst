@@ -34,6 +34,11 @@ Abstract
 Inhaltsverzeichnis
 ------------------
 
+Das Inhaltsverzeichnis gibt dem Leser einen schnellen Einblick ueber den
+Inhalt und die Struktur der vorliegenden Publikation. Zur Darstellung
+des Inhaltsverzeichnissses bieten sich zwei Techniken an.
+:ref:`Weiterlesen... <elemente_inhaltsverzeichnis_overview>`
+
 Literaturverzeichnis
 --------------------
 

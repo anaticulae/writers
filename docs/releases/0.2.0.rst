@@ -6,7 +6,7 @@ RP 0.2.0
 article
 -------
 
-* [ ] table of content
+* [x] table of content
 
 * [ ] page counts
 
