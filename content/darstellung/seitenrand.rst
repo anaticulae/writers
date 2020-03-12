@@ -8,5 +8,5 @@ Seitenzahlen innerhalb des Randes und mindestens 1 cm von Blattrand
 entfernt
 
 * Layout:
-- Format, DINA4
-- Rand
+* Format, DINA4
+* Rand

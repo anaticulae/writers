@@ -22,8 +22,3 @@ Inhalt
 
 Artikel des Monats
 ------------------
-
-.. toctree::
-  :maxdepth: 3
-
-  {{ mastertoc() }}

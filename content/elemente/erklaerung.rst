@@ -1,7 +1,7 @@
 .. _elemente_erklaerung_overview:
 
 Eidesstattliche Erklärung
-======================
+=========================
 
 Die Eidesstattliche Erklärung stellt sicher, dass der Authorin und dem
 Author die rechtlichen Konsequenzen eines Verstosses gegen die

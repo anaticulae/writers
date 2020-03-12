@@ -1,6 +1,12 @@
 Darstellung
 ===========
 
+.. toctree::
+  :maxdepth: 1
+
+  seitenrand
+  seitenzahlen
+
 Layout
 ------
 
@@ -16,7 +22,7 @@ Seitenzahlen
 :ref:`Weiterlesen... <darstellung_seitenzahlen_overview>`
 
 Absaetze
-~~~~~~~
+~~~~~~~~
 
 Fusszeile
 ~~~~~~~~~
@@ -24,7 +30,7 @@ Fusszeile
 Fussnoten
 ~~~~~~~~~
 
-- Tabellen
+* Tabellen
 * Abbildungen und Diagramme
 
 Schriftgestalltung

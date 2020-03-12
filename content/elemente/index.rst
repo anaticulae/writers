@@ -6,9 +6,13 @@ folgenden Elementen.
 
 Notwending:
 
-* Deckblatt
-* Eidesstattliche Erklärung
-* Inhaltsverzeichnis
+.. toctree::
+  :maxdepth: 1
+
+  deckblatt
+  erklaerung
+  inhaltsverzeichnis
+
 * Literaturverzeichnis
 
 Deckblatt
