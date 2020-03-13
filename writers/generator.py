@@ -44,7 +44,7 @@ def generate(
     if path is None:
         os.makedirs(build, exist_ok=True)
 
-    cmd = f'sphinx-build {source} {build} -j=auto'
+    cmd = f'sphinx-build {source} {build} -j=auto -n -v -W --keep-going'
     completed = utila.run(cmd)
 
     if completed.returncode:
