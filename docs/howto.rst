@@ -32,7 +32,7 @@ Pattern
 Table
 ~~~~~
 
-.. code-blocks:: rst
+.. code-block:: rst
 
     .. list-table:: priority range categories for Sphinx transforms
        :widths: 20,80
