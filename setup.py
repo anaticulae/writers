@@ -52,7 +52,6 @@ if __name__ == "__main__":
             ],
         },
         packages=[
-            'writers',
             'content',
             'content.aufbau_gliederung',
             'content.darstellung',
@@ -60,13 +59,15 @@ if __name__ == "__main__":
             'content.elemente',
             'content.technik',
             'content.text',
+            'writers',
         ],
         package_data={
+            'content': ['*.rst'],
             'content.aufbau_gliederung': ['*.rst'],
             'content.darstellung': ['*.rst'],
             'content.druck_publikation': ['*.rst'],
             'content.elemente': ['*.rst'],
             'content.technik': ['*.rst'],
-            'content': ['*.rst'],
+            'content.text': ['*.rst'],
         },
     )
