@@ -10,7 +10,7 @@ Inhalt
 ------
 
 .. toctree::
-  :maxdepth: 3
+  :maxdepth: 2
 
   aufbau_gliederung/index
   elemente/index
