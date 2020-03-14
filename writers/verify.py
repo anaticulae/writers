@@ -132,9 +132,9 @@ class ReferenceException(ValueError):
     pass
 
 
-class FileNotExists(ReferenceError):
+class FileNotExists(ReferenceException):
     pass
 
 
-class HashNotExists(ReferenceError):
+class HashNotExists(ReferenceException):
     pass
