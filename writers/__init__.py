@@ -16,6 +16,7 @@ from writers.verify import ReferenceException
 from writers.verify import replace
 from writers.verify import solve
 from writers.verify import validate
+from writers.verify import validate_template
 
 __version__ = '0.2.4'
 

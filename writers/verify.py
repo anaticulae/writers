@@ -105,6 +105,25 @@ def replace(content: str, url: str, template: callable = None) -> str:
     return content
 
 
+def validate_template(content: str):
+    """Extract list of invalid links.
+
+    >>> validate_template('{elemente/deckblatt#notwendige-angaben}[Message]}')
+    [('{elemente/deckblatt#notwendige-angaben}[Message]', 'elemente/deckblatt.html#notwendige-angaben')]
+    >>> validate_template('No links in content can not have invalid links')
+    []
+    """
+    invalid = []
+    for item in re.findall(URL_PATTERN, content):
+        matched, link, _ = item
+        solved = solve(link)
+        try:
+            validate(solved)
+        except ReferenceException:
+            invalid.append((matched, solved))
+    return invalid
+
+
 def link_processor(url, description):
     return f'<a href="{url}" target="_blank">{description}</a>'
 
