@@ -14,7 +14,7 @@ from writers.verify import HashNotExists
 from writers.verify import ReferenceException
 from writers.verify import validate_reference
 
-__version__ = '0.1.2'
+__version__ = '0.2.0'
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__)))
 PROCESS = 'writers'

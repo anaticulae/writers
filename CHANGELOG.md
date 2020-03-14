@@ -2,6 +2,32 @@
 
 Every noteable change is logged here.
 
+## v0.2.0
+
+### Feature
+
+* add method to validate reference (bbeb9b89e03b)
+* treat warnings as errors (135e0fbdadbd)
+* add verbose flag to gather more information about process (e8f54095fc6a)
+* add option to set template folder (5a72049c515e)
+* add option to path generator result folder (e6453a5ebddd)
+* reduce default verbosity of logging (be0e1bb95179)
+
+### Fix
+
+* log generator step (8bce9ea395a0)
+* fix rst directive (9b393cbba8af)
+* add missing resource (94394c3c4fd9)
+* increase overview due reducing content (926067061891)
+* fix sphinx errors (918d8bc056e7)
+* use new amazon ref link pattern (3b298c85f28b)
+
+### Documentation
+
+* add howto extend the docs (6e5a17632654)
+* add article about page numbers and page border (fde0e0bcf614)
+* add toc guideline information (a59a80aa3232)
+
 ## v0.1.2
 
 ### Fix
