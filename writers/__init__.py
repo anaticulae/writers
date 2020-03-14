@@ -13,6 +13,7 @@ from writers.generator import generate
 from writers.verify import FileNotExists
 from writers.verify import HashNotExists
 from writers.verify import ReferenceException
+from writers.verify import replace
 from writers.verify import solve
 from writers.verify import validate
 

@@ -8,6 +8,7 @@
 # =============================================================================
 
 import os
+import re
 
 import utila
 
@@ -23,7 +24,7 @@ def validate(reference: str):
     >>> validate('index.html#notexists')
     Traceback (most recent call last):
         ...
-    writers.verify.HashNotExists: notexists
+    writers.verify.HashNotExists: #notexists
 
     >>> validate('filenotexists.html#abkuerzungen')
     Traceback (most recent call last):
@@ -42,6 +43,7 @@ def validate(reference: str):
     reference = solve(reference)
     try:
         _path, _ref = reference.split('#')
+        _ref = f'#{_ref}'
     except ValueError:
         _path, _ref = reference, ''
 
@@ -69,6 +71,42 @@ def solve(reference: str):
         # no simple refrence
         return reference
     return reference.replace('#', '.html#')
+
+
+URL_PATTERN = r'({(?P<link>[\w\-#/]+)}(?:\[(?P<description>\w+)\])?)'
+
+
+def replace(content: str, url: str, template: callable = None) -> str:
+    """Replace `{url}[content]?` pattern in `content` message.
+
+    Pattern:
+        {url}              -> <a href="checkitweg.de/url">weitere Informationen</a>
+        {url}[description] -> <a href="checkitweg.de/url">[description]</a>
+
+    >>> replace('Headline\\n{elemente/deckblatt#notwendige-angaben}[Message]',
+    ... 'http://checkitweg.de/')
+    'Headline\\n<a href="http://checkitweg.de/elemente/deckblatt.html#notwendige-angaben" target="_blank">Message</a>'
+
+    >>> replace('Headline\\n{elemente/deckblatt#notwendige-angaben}',
+    ... 'http://checkitweg.de/')
+    'Headline\\n<a href="http://checkitweg.de/elemente/deckblatt.html#notwendige-angaben" target="_blank">weitere Informationen</a>'
+    """
+    assert url.endswith('/'), url
+    if not template:
+        template = link_processor
+    assert callable(template), type(template)
+    for item in re.findall(URL_PATTERN, content):
+        pattern, link, description = item
+        if not description:
+            description = 'weitere Informationen'
+        new_url = url + solve(link)
+        href = link_processor(url=new_url, description=description)
+        content = content.replace(pattern, href, 1)
+    return content
+
+
+def link_processor(url, description):
+    return f'<a href="{url}" target="_blank">{description}</a>'
 
 
 class ReferenceException(ValueError):
