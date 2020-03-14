@@ -2,6 +2,17 @@
 
 Every noteable change is logged here.
 
+## v0.2.5
+
+### Feature
+
+* add method to verify links in template (57fbdcc8535a)
+* add method to replace url in linter message (e65cdf67197a)
+
+### Fix
+
+* fix correct parent class (ccf57a2e0fec)
+
 ## v0.2.4
 
 ### Feature
