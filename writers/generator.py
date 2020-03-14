@@ -34,11 +34,7 @@ def generate(
     utila.log('generate docs')
     assert path is None or os.path.exists(path), str(path)
 
-    if path is None:
-        tmp = writers.tmp()
-        os.makedirs(tmp, exist_ok=True)
-
-    source = writers.content()
+    source = writers.static()
 
     build = writers.build() if path is None else path
     if path is None:

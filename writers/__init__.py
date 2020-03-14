@@ -25,24 +25,17 @@ PORT = 5555
 
 def root():
     current = os.path.dirname(__file__)
-    current = os.path.join(current, '..')
-    current = os.path.abspath(current)
     return current
 
 
-def content():
-    result = os.path.join(root(), 'content')
+def static():
+    result = os.path.join(root(), 'static')
     assert os.path.exists(result), str(result)
     return result
 
 
-def tmp():
-    result = os.path.join(root(), '.tmp')
-    return result
-
-
 def build():
-    result = os.path.join(tmp(), 'build')
+    result = os.path.join(root(), 'build')
     return result
 
 
