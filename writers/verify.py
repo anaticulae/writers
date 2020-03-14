@@ -14,14 +14,11 @@ import utila
 import writers
 
 
-def validate(reference: str) -> bool:
+def validate(reference: str):
     """Check that reference is defined in docs
 
     >>> validate('elemente/inhaltsverzeichnis.html#abkuerzungen')
-    True
-
     >>> validate('aufbau_gliederung/index.html')
-    True
 
     >>> validate('index.html#notexists')
     Traceback (most recent call last):
@@ -38,8 +35,6 @@ def validate(reference: str) -> bool:
     Raises:
         FileNotExists: path of reference does not exists
         HashNotExists: reference after # does not exists
-    Returns:
-        True if reference exists
     """
     source = writers.build()
     assert os.path.exists(source), str(source)
@@ -56,7 +51,6 @@ def validate(reference: str) -> bool:
     content = utila.file_read(path)
     if not _ref in content:
         raise HashNotExists(_ref)
-    return True
 
 
 def solve(reference: str):
