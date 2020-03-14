@@ -12,7 +12,7 @@ import os
 from writers.verify import FileNotExists
 from writers.verify import HashNotExists
 from writers.verify import ReferenceException
-from writers.verify import validate_reference
+from writers.verify import validate
 
 __version__ = '0.2.0'
 

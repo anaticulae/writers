@@ -14,21 +14,21 @@ import utila
 import writers
 
 
-def validate_reference(reference: str) -> bool:
+def validate(reference: str) -> bool:
     """Check that reference is defined in docs
 
-    >>> validate_reference('elemente/inhaltsverzeichnis.html#abkuerzungen')
+    >>> validate('elemente/inhaltsverzeichnis.html#abkuerzungen')
     True
 
-    >>> validate_reference('aufbau_gliederung/index.html')
+    >>> validate('aufbau_gliederung/index.html')
     True
 
-    >>> validate_reference('index.html#notexists')
+    >>> validate('index.html#notexists')
     Traceback (most recent call last):
         ...
     writers.verify.HashNotExists: notexists
 
-    >>> validate_reference('filenotexists.html#abkuerzungen')
+    >>> validate('filenotexists.html#abkuerzungen')
     Traceback (most recent call last):
         ...
     writers.verify.FileNotExists: ...html
