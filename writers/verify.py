@@ -44,6 +44,7 @@ def validate(reference: str) -> bool:
     source = writers.build()
     assert os.path.exists(source), str(source)
 
+    reference = solve(reference)
     try:
         _path, _ref = reference.split('#')
     except ValueError:
@@ -56,6 +57,24 @@ def validate(reference: str) -> bool:
     if not _ref in content:
         raise HashNotExists(_ref)
     return True
+
+
+def solve(reference: str):
+    """Add path information to simple reference.
+
+    >>> solve('elemente/deckblatt#zwingend-notwendige-angaben')
+    'elemente/deckblatt.html#zwingend-notwendige-angaben'
+    >>> solve('elemente/deckblatt')
+    'elemente/deckblatt.html'
+    >>> solve('elemente#helm')
+    'elemente.html#helm'
+    """
+    if not '#' in reference and not '.html' in reference:
+        return f'{reference}.html'
+    if '.html' in reference:
+        # no simple refrence
+        return reference
+    return reference.replace('#', '.html#')
 
 
 class ReferenceException(ValueError):
