@@ -2,6 +2,12 @@
 
 Every noteable change is logged here.
 
+## v0.2.4
+
+### Feature
+
+* extend public API (b6ef4e5b762a)
+
 ## v0.2.3
 
 ### Feature

@@ -16,7 +16,7 @@ from writers.verify import ReferenceException
 from writers.verify import solve
 from writers.verify import validate
 
-__version__ = '0.2.3'
+__version__ = '0.2.4'
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__)))
 PROCESS = 'writers'
