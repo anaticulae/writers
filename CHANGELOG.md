@@ -2,6 +2,12 @@
 
 Every noteable change is logged here.
 
+## v0.2.3
+
+### Feature
+
+* remove return value to ease doc testing (6ea437c9ba6a)
+
 ## v0.2.2
 
 ### Feature
