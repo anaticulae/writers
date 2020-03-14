@@ -31,7 +31,7 @@ def generate(
     Returns:
         Returncode of Sphinx generation process.
     """
-    utila.call('generate docs')
+    utila.log('generate docs')
     assert path is None or os.path.exists(path), str(path)
 
     if path is None:
