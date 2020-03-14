@@ -2,6 +2,12 @@
 
 Every noteable change is logged here.
 
+## v0.2.2
+
+### Feature
+
+* move docs and add test generator step (f308564adcd2)
+
 ## v0.2.1
 
 ### Feature
