@@ -2,6 +2,12 @@
 
 Every noteable change is logged here.
 
+## v0.2.1
+
+### Feature
+
+* add method to convert simple reference into file path (b033e0539b73)
+
 ## v0.2.0
 
 ### Feature
