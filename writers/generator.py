@@ -18,6 +18,7 @@ import writers
 def generate(
         path: str = None,
         show: bool = False,
+        dirty: bool = False,
         verbose: bool = False,
 ) -> int:
     """Use Sphinx to generate documentation. If `path` is None the
@@ -27,6 +28,7 @@ def generate(
     Args:
         path(str): path to write results
         show(bool): if True open in webbrowser after generation
+        dirty(bool): ignore warnings and errors
         verbose(bool): describe what is beeing done
     Returns:
         Returncode of Sphinx generation process.
@@ -40,7 +42,10 @@ def generate(
     if path is None:
         os.makedirs(build, exist_ok=True)
 
-    cmd = f'sphinx-build {source} {build} -j=auto -n -v -W --keep-going'
+    warnings_as_errors = '-W --keep-going' if not dirty else ''
+    cmd = f'sphinx-build {source} {build} -j=auto -n -v {warnings_as_errors}'
+    if verbose:
+        utila.log(cmd)
     completed = utila.run(cmd)
 
     if completed.returncode:

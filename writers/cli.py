@@ -21,6 +21,7 @@ def main():
         utila.cli.Flag('--generate', message=('generate docs')),
         utila.cli.Flag('--show', message=('open generated docs')),
         utila.cli.Flag('--run', message=('run webserver')),
+        utila.cli.Flag('--dirty', message=('ignore errors')),
     ]
     parser = utila.cli.create_parser(
         todo=commands,
@@ -35,7 +36,10 @@ def main():
     args = utila.parse(parser)
     verbose = args['verbose'] is not None
     if args['generate'] or args['run']:
-        if writers.generator.generate(verbose=verbose):
+        if writers.generator.generate(
+                dirty=args['dirty'],
+                verbose=verbose,
+        ):
             return utila.FAILURE
     if args['run']:
         if writers.web.run():
