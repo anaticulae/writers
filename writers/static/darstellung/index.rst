@@ -13,13 +13,13 @@ Layout
 Seitenrand
 ~~~~~~~~~~
 
-:ref:`Weiterlesen... <darstellung_seitenrand_overview>`
+:ref:`Weiterlesen... <darstellung_seitenrand>`
 
 
 Seitenzahlen
 ~~~~~~~~~~~~
 
-:ref:`Weiterlesen... <darstellung_seitenzahlen_overview>`
+:ref:`Weiterlesen... <darstellung_seitenzahlen>`
 
 Absaetze
 ~~~~~~~~

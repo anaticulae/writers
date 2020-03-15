@@ -9,11 +9,11 @@ Internal References
 
 Rename the reference::
 
-    :ref:`Weiterlesen... <elemente_inhaltsverzeichnis_overview>`
+    :ref:`Weiterlesen... <elemente_inhaltsverzeichnis>`
 
 No renaming::
 
-    :ref:`elemente_inhaltsverzeichnis_overview`
+    :ref:`elemente_inhaltsverzeichnis`
 
 Amazon Ref Links
 ~~~~~~~~~~~~~~~~

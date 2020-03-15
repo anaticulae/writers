@@ -1,4 +1,4 @@
-.. _elemente_deckblatt_overview:
+.. _elemente_deckblatt:
 
 Deckblatt - Titelblatt
 ======================

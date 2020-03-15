@@ -1,4 +1,4 @@
-.. _darstellung_seitenzahlen_overview:
+.. _darstellung_seitenzahlen:
 
 Seitenzahlen
 ============
@@ -15,7 +15,7 @@ Inhaltsteils beginnt immer mit der Seitenzahl 1.
 Formatierung
 ------------
 Die Seitenzahl ist innerhalb des
-:ref:`Seitenrands <darstellung_seitenrand_overview>` angeordnet um steht
+:ref:`Seitenrands <darstellung_seitenrand>` angeordnet um steht
 mindestens **1 cm** vom Blattrand entfernt.
 
 TODO: Buchpublikation: Position rechte Seite, ungerade Seite

@@ -1,4 +1,4 @@
-.. _elemente_erklaerung_overview:
+.. _elemente_erklaerung:
 
 Eidesstattliche Erklärung
 =========================

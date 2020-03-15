@@ -1,4 +1,4 @@
-.. _elemente_inhaltsverzeichnis_overview:
+.. _elemente_inhaltsverzeichnis:
 
 Inhaltsverzeichnis
 ==================
@@ -79,7 +79,7 @@ Weite Informationen befinden sich in [TOOD:!Seitenzahlen!]
 
 Ausnahmen:
 
-* Die :ref:`elemente_erklaerung_overview` ist nicht Teil der
+* Die :ref:`elemente_erklaerung` ist nicht Teil der
   Seitenzaelung [#theissen2017_239]_
 
 Abkuerzungen

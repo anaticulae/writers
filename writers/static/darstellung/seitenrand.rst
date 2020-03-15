@@ -1,4 +1,4 @@
-.. _darstellung_seitenrand_overview:
+.. _darstellung_seitenrand:
 
 Seitenrand
 ==========
