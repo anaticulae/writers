@@ -18,7 +18,8 @@ import writers.web
 @utila.saveme
 def main():
     commands = [
-        utila.cli.Flag('--generate', message=('generate documents')),
+        utila.cli.Flag('--generate', message=('generate docs')),
+        utila.cli.Flag('--show', message=('open generated docs')),
         utila.cli.Flag('--run', message=('run webserver')),
     ]
     parser = utila.cli.create_parser(
@@ -39,5 +40,7 @@ def main():
     if args['run']:
         if writers.web.run():
             return utila.FAILURE
-
+    if args['show']:
+        if writers.generator.open_generated():
+            return utila.FAILURE
     return utila.SUCCESS

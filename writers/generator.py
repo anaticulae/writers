@@ -58,3 +58,9 @@ def generate(
         assert os.path.exists(html), html
         webbrowser.open(html)
     return utila.SUCCESS
+
+
+def open_generated():
+    html = writers.html()
+    webbrowser.open(html)
+    return utila.SUCCESS
