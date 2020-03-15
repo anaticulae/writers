@@ -16,7 +16,7 @@ import writers
 
 
 def validate(reference: str):
-    """Check that reference is defined in docs
+    """Check that reference is defined in docs.
 
     >>> validate('elemente/inhaltsverzeichnis.html#abkuerzungen')
     >>> validate('aufbau_gliederung/index.html')
@@ -73,7 +73,11 @@ def solve(reference: str):
     return reference.replace('#', '.html#')
 
 
-URL_PATTERN = r'({(?P<link>[\w\-#/]+)}(?:\[(?P<description>\w+)\])?)'
+URL_PATTERN = r"""(
+                  {(?P<link>[\w\-\.#/]+)}       # support .html and #anker in links
+                  (?:\[(?P<description>\w+)\])? # optional description
+                  )
+               """
 
 
 def replace(content: str, url: str, template: callable = None) -> str:
@@ -95,7 +99,7 @@ def replace(content: str, url: str, template: callable = None) -> str:
     if not template:
         template = link_processor
     assert callable(template), type(template)
-    for item in re.findall(URL_PATTERN, content):
+    for item in re.findall(URL_PATTERN, content, re.VERBOSE):
         pattern, link, description = item
         if not description:
             description = 'weitere Informationen'
@@ -112,9 +116,11 @@ def validate_template(content: str):
     [('{elemente/titelblatt#notwendige-angaben}[Message]', 'elemente/titelblatt.html#notwendige-angaben')]
     >>> validate_template('No links in content can not have invalid links')
     []
+    >>> validate_template('{elemente/error_with_html.html#titelblatt}')
+    [('{elemente/error_with_html.html#titelblatt}', 'elemente/error_with_html.html#titelblatt')]
     """
     invalid = []
-    for item in re.findall(URL_PATTERN, content):
+    for item in re.findall(URL_PATTERN, content, re.VERBOSE):
         matched, link, _ = item
         solved = solve(link)
         try:
