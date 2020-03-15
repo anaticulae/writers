@@ -2,6 +2,12 @@
 
 Every noteable change is logged here.
 
+## v0.2.7
+
+### Feature
+
+* support .html extension in file name (5e903e34ed83)
+
 ## v0.2.6
 
 ### Feature
