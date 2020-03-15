@@ -1,7 +1,7 @@
-.. _elemente_deckblatt:
+.. _elemente_titelblatt:
 
-Deckblatt - Titelblatt
-======================
+Titelblatt
+==========
 
 Das Deckblatt bildet den Einstiegspunkt Ihrer Publikation und erzeugt
 den ersten Eindruck Ihrer Arbeit, daher sollte beim Erstellen grosse

@@ -58,10 +58,10 @@ def validate(reference: str):
 def solve(reference: str):
     """Add path information to simple reference.
 
-    >>> solve('elemente/deckblatt#zwingend-notwendige-angaben')
-    'elemente/deckblatt.html#zwingend-notwendige-angaben'
-    >>> solve('elemente/deckblatt')
-    'elemente/deckblatt.html'
+    >>> solve('elemente/titelblatt#zwingend-notwendige-angaben')
+    'elemente/titelblatt.html#zwingend-notwendige-angaben'
+    >>> solve('elemente/titelblatt')
+    'elemente/titelblatt.html'
     >>> solve('elemente#helm')
     'elemente.html#helm'
     """
@@ -83,13 +83,13 @@ def replace(content: str, url: str, template: callable = None) -> str:
         {url}              -> <a href="checkitweg.de/url">weitere Informationen</a>
         {url}[description] -> <a href="checkitweg.de/url">[description]</a>
 
-    >>> replace('Headline\\n{elemente/deckblatt#notwendige-angaben}[Message]',
+    >>> replace('Headline\\n{elemente/titelblatt#notwendige-angaben}[Message]',
     ... 'http://checkitweg.de/')
-    'Headline\\n<a href="http://checkitweg.de/elemente/deckblatt.html#notwendige-angaben" target="_blank">Message</a>'
+    'Headline\\n<a href="http://checkitweg.de/elemente/titelblatt.html#notwendige-angaben" target="_blank">Message</a>'
 
-    >>> replace('Headline\\n{elemente/deckblatt#notwendige-angaben}',
+    >>> replace('Headline\\n{elemente/titelblatt#notwendige-angaben}',
     ... 'http://checkitweg.de/')
-    'Headline\\n<a href="http://checkitweg.de/elemente/deckblatt.html#notwendige-angaben" target="_blank">weitere Informationen</a>'
+    'Headline\\n<a href="http://checkitweg.de/elemente/titelblatt.html#notwendige-angaben" target="_blank">weitere Informationen</a>'
     """
     assert url.endswith('/'), url
     if not template:
@@ -108,8 +108,8 @@ def replace(content: str, url: str, template: callable = None) -> str:
 def validate_template(content: str):
     """Extract list of invalid links.
 
-    >>> validate_template('{elemente/deckblatt#notwendige-angaben}[Message]}')
-    [('{elemente/deckblatt#notwendige-angaben}[Message]', 'elemente/deckblatt.html#notwendige-angaben')]
+    >>> validate_template('{elemente/titelblatt#notwendige-angaben}[Message]}')
+    [('{elemente/titelblatt#notwendige-angaben}[Message]', 'elemente/titelblatt.html#notwendige-angaben')]
     >>> validate_template('No links in content can not have invalid links')
     []
     """
