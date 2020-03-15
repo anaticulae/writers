@@ -6,25 +6,18 @@ folgenden Elementen.
 
 Notwending:
 
-.. toctree::
-  :maxdepth: 1
-
-  deckblatt
-  erklaerung
-  inhaltsverzeichnis
-
-* Literaturverzeichnis
+* :ref:`elemente_deckblatt`
+* :ref:`elemente_erklaerung`
+* :ref:`elemente_inhaltsverzeichnis`
+* :ref:`elemente_literaturverzeichnis`
 
 Optional:
 
-.. toctree::
-  :maxdepth: 1
-
-  abkuerzungsverzeichnis
-  fusszeile
+* :ref:`elemente_abkuerzungsverzeichnis`
+* :ref:`elemente_fusszeile`
 
 Deckblatt
----------
+~~~~~~~~~
 
 Das Deckblatt bildet den Einstiegspunkt Ihrer Publikation und erzeugt
 den ersten Eindruck Ihrer Arbeit, daher sollte beim Erstellen grosse
@@ -32,7 +25,7 @@ Sorgfalt auf Korrektheit und Vollständingkeit gelegt werden.
 :ref:`Weiterlesen... <elemente_deckblatt>`
 
 Eidesstattliche Erklärung
--------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Die Eidesstattliche Erklärung stellt sicher, dass der Authorin und dem
 Author die rechtlichen Konsequenzen eines Verstosses gegen die
@@ -41,10 +34,10 @@ der Regel zur Aberkennung des erlangten akademischen Titels.
 :ref:`Weiterlesen... <elemente_erklaerung>`
 
 Abstract
---------
+~~~~~~~~
 
 Inhaltsverzeichnis
-------------------
+~~~~~~~~~~~~~~~~~~
 
 Das Inhaltsverzeichnis gibt dem Leser einen schnellen Einblick ueber den
 Inhalt und die Struktur der vorliegenden Publikation. Zur Darstellung
@@ -52,16 +45,12 @@ des Inhaltsverzeichnissses bieten sich zwei Techniken an.
 :ref:`Weiterlesen... <elemente_inhaltsverzeichnis>`
 
 Literaturverzeichnis
---------------------
+~~~~~~~~~~~~~~~~~~~~
 
-Weitere Verzeichnise
---------------------
 
 Abbildung
-~~~~~~~~~
 
 Tabellen
-~~~~~~~~
 
 Abkürzungsverzeichnis
 ~~~~~~~~~~~~~~~~~~~~~
@@ -71,12 +60,12 @@ Text verwendete Abkürzungen nachzuschlagen.
 :ref:`Weiterlesen... <elemente_abkuerzungsverzeichnis>`
 
 Fußzeile
---------
+~~~~~~~~
 
 :ref:`Weiterlesen... <elemente_fusszeile>`
 
 Zitat
------
+~~~~~
 
 Hardward
 ~~~~~~~~
@@ -88,4 +77,4 @@ Technisch
 ~~~~~~~~~
 
 Anhang
-------
+~~~~~~
