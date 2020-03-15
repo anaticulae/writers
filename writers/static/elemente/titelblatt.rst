@@ -73,7 +73,8 @@ Internet
 * Links
 * Links
 
-Literatur und weitere Quellen
------------------------------
+Literatur und Quellen
+---------------------
+
 
 .. [#theissen2017_208_209] `Theissen:2017; Seite 208-209 <{amazon:theissen_2017}>`_.
