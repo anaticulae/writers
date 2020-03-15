@@ -3,4 +3,5 @@
 backlog
 =======
 
-* [ ] add amazon reflink replacer via Sphinx
+* hit the border
+* distance between objects
