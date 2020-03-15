@@ -2,6 +2,26 @@
 
 Every noteable change is logged here.
 
+## v0.2.6
+
+### Feature
+
+* add --dirty flag to ignore warnings while building docs (f6992e28179d)
+* add --show flag to open generated docs (914c1f342d6d)
+
+### Documentation
+
+* rename headline to general pattern (87e3caba3978)
+* rename deckblatt and fix index (ed827cb8f259)
+* add article table of literature (f6aaa6a2d901)
+* remove duplicated title out of toc (c07cf86cc2b6)
+* add article footer (9cc9a9129abd)
+* add article text editor (e9d5b7f8b6f1)
+* add article Abkuerzungsverzeichnis (17446f50e891)
+* add article abkuerzung (3ba6b0223904)
+* add article Festabstand (94c3b42351b6)
+* shorten references to get shorter links (53a77aceafd4)
+
 ## v0.2.5
 
 ### Feature
