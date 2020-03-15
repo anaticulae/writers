@@ -7,6 +7,8 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
+import webbrowser
+
 import utila
 
 import tests
@@ -19,3 +21,10 @@ def test_cli_help(monkeypatch):
 @utila.skip_longrun
 def test_cli_generate(testdir, monkeypatch):
     tests.run_writers('--generate', monkeypatch=monkeypatch)
+
+
+@utila.skip_longrun
+def test_cli_show(testdir, monkeypatch):
+    with monkeypatch.context() as context:
+        context.setattr(webbrowser, 'open', lambda x: x)
+        tests.run_writers('--show', monkeypatch=monkeypatch)
