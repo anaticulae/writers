@@ -10,7 +10,7 @@ article
 
 * [x] page counts
 
-* [ ] header and footer
+* [x] header and footer
 
 * [ ] footnotes
 

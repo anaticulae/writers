@@ -21,6 +21,7 @@ Optional:
   :maxdepth: 1
 
   abkuerzungsverzeichnis
+  fusszeile
 
 Deckblatt
 ---------
@@ -68,6 +69,11 @@ Abkürzungsverzeichnis
 Das Abkürzungsverzeichnis ermoeglicht es der Leserin oder dem Leser im
 Text verwendete Abkürzungen nachzuschlagen.
 :ref:`Weiterlesen... <elemente_abkuerzungsverzeichnis>`
+
+Fußzeile
+--------
+
+:ref:`Weiterlesen... <elemente_fusszeile>`
 
 Zitat
 -----
