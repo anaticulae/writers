@@ -15,6 +15,13 @@ Notwending:
 
 * Literaturverzeichnis
 
+Optional:
+
+.. toctree::
+  :maxdepth: 1
+
+  abkuerzungsverzeichnis
+
 Deckblatt
 ---------
 
@@ -57,6 +64,10 @@ Tabellen
 
 Abkürzungsverzeichnis
 ~~~~~~~~~~~~~~~~~~~~~
+
+Das Abkürzungsverzeichnis ermoeglicht es der Leserin oder dem Leser im
+Text verwendete Abkürzungen nachzuschlagen.
+:ref:`Weiterlesen... <elemente_abkuerzungsverzeichnis>`
 
 Zitat
 -----

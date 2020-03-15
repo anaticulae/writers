@@ -14,7 +14,7 @@ article
 
 * [ ] footnotes
 
-* [ ] abbreviations
+* [x] abbreviations
 
 optional
 --------
