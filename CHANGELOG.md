@@ -2,6 +2,12 @@
 
 Every noteable change is logged here.
 
+## v0.2.8
+
+### Documentation
+
+* add article fussnote (1cf208c7286b)
+
 ## v0.2.7
 
 ### Feature
