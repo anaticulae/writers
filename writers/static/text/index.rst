@@ -13,3 +13,4 @@ Elemente
   :maxdepth: 1
 
   abkuerzung
+  fussnote
