@@ -14,6 +14,7 @@ Textverarbeitung
 
   festabstand
   texteditor
+  literaturverwaltung
 
 Weiterführende Informationen
 -----------------------------
