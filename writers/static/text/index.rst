@@ -14,3 +14,10 @@ Elemente
 
   abkuerzung
   fussnote
+
+**Weiteres**
+
+.. toctree::
+  :maxdepth: 1
+
+  sortierung

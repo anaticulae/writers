@@ -12,10 +12,10 @@ Abkürzung muss im Abkürzungsverzeichnis enthalten sein
 Alphabetische Sortierung
 ------------------------
 
-Das Abkürzungsverzeichnis wird alphabetisch nach ``DIN 5007-1: 2005-08``
-sortiert. Die Buchstaben ä, ö und ü sind wie a, o und u in das
-Verzeichnis einzusortieren. [#din5007.2005]_ Für griechische Buchstaben
-kann die Sortierung dem DUDEN entnommen werden.
+Das Abkürzungsverzeichnis wird :ref:`alphabetisch<alphabetisch>` nach
+``DIN 5007-1: 2005-08`` sortiert. Die Buchstaben ä, ö und ü sind wie a,
+o und u in das Verzeichnis einzusortieren. [#din5007.2005]_ Für
+griechische Buchstaben kann die Sortierung dem DUDEN entnommen werden.
 
 Homonyme
 --------
