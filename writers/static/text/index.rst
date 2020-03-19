@@ -3,11 +3,10 @@
 Text
 ====
 
-Stil
-----
 
-Elemente
---------
+**Stil**
+
+**Elemente**
 
 .. toctree::
   :maxdepth: 1
