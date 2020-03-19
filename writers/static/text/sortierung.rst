@@ -3,8 +3,8 @@
 Sortierung
 ==========
 
-Alphabtisch
-~~~~~~~~~~~
+Alphabetisch
+~~~~~~~~~~~~
 
 .. _alphabetisch:
 

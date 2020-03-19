@@ -6,7 +6,7 @@ RP 0.3.0
 article
 -------
 
-* [ ] bibliography
+* [x] bibliography
 
 * [ ] citation styles: harvard
 
