@@ -3,6 +3,8 @@
 Text
 ====
 
+Der Text einer wissenschaftlichen Arbeit setzt sich aus verschiedenen
+Teilbereichen zusammen.
 
 **Stil**
 
@@ -13,6 +15,7 @@ Text
 
   abkuerzung
   fussnote
+  zitat
 
 **Weiteres**
 
