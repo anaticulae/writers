@@ -1,0 +1,24 @@
+.. _0_3_0:
+
+RP 0.3.0
+=========
+
+article
+-------
+
+* [ ] bibliography
+
+* [ ] citation styles: harvard
+
+* [ ] citation styles: chicago
+
+* [ ] citation styles: technical
+
+code quality
+------------
+
+before
+~~~~~~
+
+* Total coverage: 88.35%
+* Your code has been rated at 10.00/10
