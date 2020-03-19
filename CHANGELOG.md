@@ -2,6 +2,22 @@
 
 Every noteable change is logged here.
 
+## v0.3.0
+
+### Feature
+
+* add article Sortiertung (cdb0b3b7e075)
+
+### Fix
+
+* fix headlines and index (df0586522ba3)
+
+### Documentation
+
+* add article Zitat (f34958e7d1d7)
+* extend article Literaturverzeichnis (28197153138e)
+* add article Literaturverwaltung (aeb19fa09e97)
+
 ## v0.2.9
 
 ## v0.2.8
