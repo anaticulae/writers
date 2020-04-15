@@ -2,6 +2,17 @@
 
 Every noteable change is logged here.
 
+## v0.3.7
+
+### Fix
+
+* reduce headlines on main page (ebd1ea300fca)
+
+### Documentation
+
+* add article `Schriftbild` (1419d881c34c)
+* add article `Satzzeichen` (459a7ba443d0)
+
 ## v0.3.6
 
 ## v0.3.5

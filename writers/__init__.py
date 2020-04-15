@@ -18,7 +18,7 @@ from writers.verify import solve
 from writers.verify import validate
 from writers.verify import validate_template
 
-__version__ = '0.3.6'
+__version__ = '0.3.7'
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__)))
 PROCESS = 'writers'
