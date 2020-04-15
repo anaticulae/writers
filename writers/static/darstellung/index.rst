@@ -4,6 +4,7 @@ Darstellung
 .. toctree::
   :maxdepth: 1
 
+  satzzeichen
   seitenrand
   seitenzahlen
 
