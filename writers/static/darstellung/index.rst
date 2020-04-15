@@ -5,47 +5,38 @@ Darstellung
   :maxdepth: 1
 
   satzzeichen
+  schriftbild
   seitenrand
   seitenzahlen
 
-Layout
-------
+--------------------------------
 
-Seitenrand
-~~~~~~~~~~
+**Seitenrand**
 
 :ref:`Weiterlesen... <darstellung_seitenrand>`
 
 
-Seitenzahlen
-~~~~~~~~~~~~
+**Seitenzahlen**
 
 :ref:`Weiterlesen... <darstellung_seitenzahlen>`
 
-Absaetze
-~~~~~~~~
+**Absaetze**
 
-Fusszeile
-~~~~~~~~~
+**Fusszeile**
 
-Fussnoten
-~~~~~~~~~
+**Fussnoten**
 
 * Tabellen
 * Abbildungen und Diagramme
 
-Schriftgestalltung
-------------------
+**Schriftgestalltung**
 
 * Schriftbild
 * Schriftarten
 * Hervorhebungen
 
-Tabellen
---------
+**Tabellen**
 
-Abbildungen
------------
+**Abbildungen**
 
-Verzeichnisse
--------------
+**Verzeichnisse**
