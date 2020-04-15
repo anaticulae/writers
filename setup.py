@@ -53,21 +53,6 @@ if __name__ == "__main__":
         },
         packages=[
             'writers',
-            'writers.static',
-            'writers.static.aufbau_gliederung',
-            'writers.static.darstellung',
-            'writers.static.druck_publikation',
-            'writers.static.elemente',
-            'writers.static.technik',
-            'writers.static.text',
+            'static',
         ],
-        package_data={
-            'writers.static': ['*.rst'],
-            'writers.static.aufbau_gliederung': ['*.rst'],
-            'writers.static.darstellung': ['*.rst'],
-            'writers.static.druck_publikation': ['*.rst'],
-            'writers.static.elemente': ['*.rst'],
-            'writers.static.technik': ['*.rst'],
-            'writers.static.text': ['*.rst'],
-        },
     )

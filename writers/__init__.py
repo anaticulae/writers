@@ -32,13 +32,13 @@ def root():
 
 
 def static():
-    result = os.path.join(root(), 'static')
+    result = os.path.join(root(), '..', 'static')
     assert os.path.exists(result), str(result)
     return result
 
 
 def build():
-    result = os.path.join(root(), 'build')
+    result = os.path.join(root(), '..', 'build')
     return result
 
 
