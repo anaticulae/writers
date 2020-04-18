@@ -26,7 +26,6 @@ Developer
   :maxdepth: 1
 
   howto
-  todo
 
 Modules
 --------------------
