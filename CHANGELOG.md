@@ -2,6 +2,12 @@
 
 Every noteable change is logged here.
 
+## v0.3.8
+
+### Documentation
+
+* use backlog instead (8a94bbd2befa)
+
 ## v0.3.7
 
 ### Fix
