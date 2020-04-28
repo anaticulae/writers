@@ -21,6 +21,9 @@ Aus gestallterischen Gründen werden auch französische Anführungszeichen
 
     >>Sie sagte: >Hallo hier bin ich<.<<
 
+todo: einzelne Wörter fremder Sprache werden in `deutschen` Zitaten gesetzt.
+todo: siehe duden!
+
 [#typografie2017_17]_
 
 Striche
