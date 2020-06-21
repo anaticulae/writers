@@ -11,6 +11,7 @@ import os
 
 import pytest
 import utila
+import utilatest
 
 import tests.update
 import writers.generator
@@ -19,7 +20,7 @@ import writers.web
 pytest_plugins = ['pytester', 'xdist']  # pylint: disable=invalid-name
 
 if not 'PYTEST_XDIST_WORKER' in os.environ:
-    if 'GENERATE' in os.environ or utila.test.LONGRUN:
+    if 'GENERATE' in os.environ or utilatest.LONGRUN:
         utila.log('install requirements')
         tests.update.install_requirements()
 

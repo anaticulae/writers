@@ -9,14 +9,14 @@
 
 import http
 
-import utila
+import utilatest
 
 import writers
 import writers.cli
 
 
 def run_writers(cmd: str, monkeypatch) -> int:
-    returncode = utila.run_command(
+    returncode = utilatest.run_command(
         cmd,
         writers.PROCESS,
         writers.cli.main,

@@ -9,7 +9,7 @@
 
 import webbrowser
 
-import utila
+import utilatest
 
 import tests
 
@@ -18,12 +18,12 @@ def test_cli_help(monkeypatch):
     tests.run_writers('--help', monkeypatch=monkeypatch)
 
 
-@utila.skip_longrun
+@utilatest.skip_longrun
 def test_cli_generate(testdir, monkeypatch):
     tests.run_writers('--generate', monkeypatch=monkeypatch)
 
 
-@utila.skip_longrun
+@utilatest.skip_longrun
 def test_cli_show(testdir, monkeypatch):
     with monkeypatch.context() as context:
         context.setattr(webbrowser, 'open', lambda x: x)

@@ -10,13 +10,14 @@
 import os
 
 import utila
+import utilatest
 
 import writers
 import writers.generator
 
 
 def install_requirements():
-    utila.clean_install(os.path.join(writers.ROOT, '..'), writers.PROCESS)
+    utilatest.clean_install(os.path.join(writers.ROOT, '..'), writers.PROCESS)
 
 
 def update_resources():
