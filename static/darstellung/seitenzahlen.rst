@@ -14,6 +14,7 @@ Inhaltsteils beginnt immer mit der Seitenzahl 1.
 
 Formatierung
 ------------
+
 Die Seitenzahl ist innerhalb des
 :ref:`Seitenrands <darstellung_seitenrand>` angeordnet um steht
 mindestens **1 cm** vom Blattrand entfernt.

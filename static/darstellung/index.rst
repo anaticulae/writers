@@ -8,6 +8,7 @@ Darstellung
   schriftbild
   seitenrand
   seitenzahlen
+  mathematik
 
 --------------------------------
 
@@ -19,6 +20,10 @@ Darstellung
 **Seitenzahlen**
 
 :ref:`Weiterlesen... <darstellung_seitenzahlen>`
+
+**Mathematik**
+
+:ref:`Weiterlesen... <darstellung_mathematik>`
 
 **Absaetze**
 
