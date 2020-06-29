@@ -2,6 +2,12 @@
 
 Every noteable change is logged here.
 
+## v0.3.19
+
+### Feature
+
+* add article how to write Einheitszeichen (e597053bd0a3)
+
 ## v0.3.18
 
 ## v0.3.17
