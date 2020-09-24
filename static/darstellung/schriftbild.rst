@@ -29,6 +29,20 @@ Rausatz
 Lesbarkeit
 ----------
 
+„Ich lese, um den Sinn eines Textes oder Wortes zu verstehen. Wenn
+irgendein Umstand [...] vom Inhalt ablenkt, ist das Lesen
+beeinträchtigt. Dann sprechen wir von schlechter Lesbarkeit.“ [#wegweiserschrift2017_35]_
+
+Einflüsse auf die Lesbarkeit
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Schriftart(Buchstabenformen, Größe, Zeilenlänge, Durchschuss...)
+* Übersichtlichkeit organisieren (Auszeichnungen richtig wählen,
+  Satzdetails, unbedruckte Fläche mit einbeziehen)
+
+[#wegweiserschrift2017_35]_
+
+
 [#typografie2017_43]_
 
 Trennungen
@@ -40,3 +54,5 @@ Literatur und Quellen
 .. [#typografie2017_43] `Typografie: 2017; Seite 43ff. <{amazon:typografie_2017}>`_
 
 .. [#typografie2017_52_53] `Typografie: 2017; Seite 52-53. <{amazon:typografie_2017}>`_
+
+.. [#wegweiserschrift2017_35] `Wegweiser Schrift: 2017; Seite 35. <{amazon:wegweiseer_2017}>`_
