@@ -2,6 +2,12 @@
 
 Every noteable change is logged here.
 
+## v0.4.0
+
+### Feature
+
+* add information about readability (104e5429d530)
+
 ## v0.3.27
 
 ## v0.3.26
