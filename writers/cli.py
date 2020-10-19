@@ -18,7 +18,7 @@ import writers.web
 @utila.saveme
 def main():
     commands = [
-        utila.cli.Flag('--generate', message=('generate docs')),
+        utila.cli.Flag('--build', message=('generate docs')),
         utila.cli.Flag('--show', message=('open generated docs')),
         utila.cli.Flag('--run', message=('run webserver')),
         utila.cli.Flag('--dirty', message=('ignore errors')),
@@ -35,7 +35,7 @@ def main():
     )
     args = utila.parse(parser)
     verbose = args['verbose'] is not None
-    if args['generate'] or args['run']:
+    if args['build'] or args['run']:
         if writers.generator.generate(
                 dirty=args['dirty'],
                 verbose=verbose,

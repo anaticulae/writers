@@ -19,8 +19,8 @@ def test_cli_help(monkeypatch):
 
 
 @utilatest.skip_longrun
-def test_cli_generate(testdir, monkeypatch):
-    tests.run_writers('--generate', monkeypatch=monkeypatch)
+def test_cli_build(testdir, monkeypatch):
+    tests.run_writers('--build', monkeypatch=monkeypatch)
 
 
 @utilatest.skip_longrun
