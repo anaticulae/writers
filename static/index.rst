@@ -18,6 +18,7 @@ Inhalt
   text/index
   druck_publikation/index
   technik/index
+  literatur
 
 
 Artikel des Monats
