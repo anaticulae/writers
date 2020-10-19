@@ -33,12 +33,14 @@ def root():
 
 def static():
     result = os.path.join(root(), '..', 'static')
+    result = os.path.normpath(result)
     assert os.path.exists(result), str(result)
     return result
 
 
 def build():
     result = os.path.join(root(), '..', 'build')
+    result = os.path.normpath(result)
     return result
 
 
