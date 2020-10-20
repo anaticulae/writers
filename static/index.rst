@@ -23,3 +23,8 @@ Inhalt
 
 Artikel des Monats
 ------------------
+
+.. toctree::
+  :maxdepth: 1
+
+  monat/index
