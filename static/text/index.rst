@@ -14,6 +14,7 @@ Schreiben
   stilkunde/woerter/fuellwoerter
   stilkunde/woerter/verben
   stilkunde/woerter/wortwahl
+  stilkunde/woerter/pleonasmen
 
 **Elemente**
 

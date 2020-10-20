@@ -55,6 +55,12 @@ Vermeiden Sie diese indem Sie diese konkretisieren. [#kornmeier2018_183]_
     !!! In Thailand herrscht ein große politische Anspanng.
     >>> Die politische Lage in Thailand ist sehr angespannt.
 
+Pleonasmen
+----------
+
+Pleonasmen bezeichen Verben mit unnötigen Vorsilben. Eine Übersicht
+findet sich :ref:`hier <text_woerter_pleonasmen>`.
+
 Literatur und Quellen
 ---------------------
 
