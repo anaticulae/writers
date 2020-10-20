@@ -1,12 +1,19 @@
-.. _text:
+.. _schreiben:
 
-Text
-====
+Schreiben
+=========
 
-Der Text einer wissenschaftlichen Arbeit setzt sich aus verschiedenen
-Teilbereichen zusammen.
+!DEFINITION WISSCHAFTLICHES SCHREIBEN!
 
 **Stil**
+
+.. toctree::
+  :maxdepth: 1
+
+  stilkunde/index
+  stilkunde/woerter/fuellwoerter
+  stilkunde/woerter/verben
+  stilkunde/woerter/wortwahl
 
 **Elemente**
 
