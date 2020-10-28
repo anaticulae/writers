@@ -48,6 +48,26 @@ Einflüsse auf die Lesbarkeit
 Trennungen
 ----------
 
+Anfang und Ende
+---------------
+
+Hurenkind
+~~~~~~~~~
+
+Einsame Zeile am Seitenanfang.
+
+Schusterjunge
+~~~~~~~~~~~~~
+
+Einsame Zeile am Seitenende.
+
+Seitenanfang
+~~~~~~~~~~~~
+
+Die Seite sollte mit Text beginnen.
+
+2 Beispiele einfügen
+
 Literatur und Quellen
 ---------------------
 
