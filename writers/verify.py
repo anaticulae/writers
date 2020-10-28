@@ -118,7 +118,11 @@ def validate_template(content: str):
     []
     >>> validate_template('{elemente/error_with_html.html#titelblatt}')
     [('{elemente/error_with_html.html#titelblatt}', 'elemente/error_with_html.html#titelblatt')]
+    >>> validate_template('{{jinja_value}}')
+    []
     """
+    # do not detect jinja-value as broken reference
+    content = content.replace('{{', '**')  # TODO: TO STUPID TO FIX REGEX
     invalid = []
     for item in re.findall(URL_PATTERN, content, re.VERBOSE):
         matched, link, _ = item
