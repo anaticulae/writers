@@ -2,6 +2,14 @@
 
 Every noteable change is logged here.
 
+## v1.1.0
+
+### Feature
+
+* add article perspektive (0c156c15c155)
+* add paragraph schusterjunge, hurenkind und seitenanfang (e97a8fb96aab)
+* add headline umfang to citation (45996455a51b)
+
 ## v1.0.1
 
 ### Fix
