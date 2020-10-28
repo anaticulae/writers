@@ -26,7 +26,7 @@ können aber bei sehr umfangreichen Arbeiten große Zahlenkolonnen bilden
 (z.B. [1337]).
 
 Eine Nummerierung für jedes Kapitel erzeugt das Problem der
-Mehrdeutigkeit des Fußnoten.
+Mehrdeutigkeit der Fußnoten.
 
 Formatierung
 ------------
