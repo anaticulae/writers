@@ -2,6 +2,12 @@
 
 Every noteable change is logged here.
 
+## v1.0.1
+
+### Fix
+
+* do not detect jinja value as reference (cf8d73c021ad)
+
 ## v1.0.0
 
 ### Feature
