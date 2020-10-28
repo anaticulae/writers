@@ -3,14 +3,20 @@
 Zitat
 =====
 
+Umfang
+------
+
+Stil
+----
+
 Harvard
--------
+~~~~~~~
 
 Chicago
--------
+~~~~~~~
 
 Technical
----------
+~~~~~~~~~
 
 Literatur und Quellen
 ---------------------
