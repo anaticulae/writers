@@ -2,6 +2,17 @@
 
 Every noteable change is logged here.
 
+## v1.0.0
+
+### Feature
+
+* add article `Absatz` (52ef9e5b01db)
+* add article pleonasmen (097b59fb3fd0)
+* add article `stilkunde` (7069a6838a54)
+* add article of the month (685040a60606)
+* add literature overview with ref-links (96507168847c)
+* change --generate parameter to --build (9137a3377f61)
+
 ## v0.4.2
 
 ## v0.4.1
