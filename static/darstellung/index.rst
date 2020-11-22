@@ -40,6 +40,11 @@ Darstellung
 * Schriftarten
 * Hervorhebungen
 
+.. toctree::
+  :maxdepth: 1
+
+  hyperlink
+
 **Tabellen**
 
 **Abbildungen**
