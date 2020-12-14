@@ -1,41 +1,19 @@
 Aufbau und Gliederung
 =====================
 
-Aufbau
-------
+Eine wissenschaftliche Arbeit gliedert sich im allgemeinen in vier
+Teile: Einleitung, Grundlagen und Definitionen, Haupteil und Schluss.
 
-Eine wissenschaftliche Arbeit gliedert sich im allgemeinen in drei
-Teile: Einleitung, Haupteil und Schluss.
+.. toctree::
+  :maxdepth: 1
 
-Einleitung
-~~~~~~~~~~
+  kapitel1
+  kapitel2
+  kapitel3
+  kapitel4
 
-- Aktualität bzw. Bedeutung des Themas
-- Forschungsfrage- und ziel
-- Aufbau der Arbeit (Vorgehensweise) - Konzeptioneller Rahmen
-- Notwenige Begriffsklärungen
-- Theoretische Einordnung
-
-Hauptteil
-~~~~~~~~~
-
-- Stand der Forschung (empirisch und theoretisch)
-- Kritische Auseinandersetzung mit der bestehenden Literatur
-- Ergebnisse/Vermutungen
-- Forschungslücke
-- Methoden
-- Positionierung der eigenen Forschungsfrage und eventuell Bildung neuer Modelle, kreative Lösungsansätze
-- Eventuelle empirische Überprüfung der entwickelten Hypothesen
-
-Schluss
-~~~~~~~
-
-- Konzentrierte Darstellung der wichtigsten Ergebnisse 
-- Limitationen der eigenen Arbeit 
-- Schlussfolgerungen, Ausblick, Anregungen für zukünftige  Forschung
-
-Gliederung
-----------
+Strukturelemente
+----------------
 
 .. toctree::
   :maxdepth: 1
