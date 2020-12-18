@@ -2,6 +2,16 @@
 
 Every noteable change is logged here.
 
+## v1.2.0
+
+### Feature
+
+* split aufbau into four chapters (b2545bfb1741)
+
+### Documentation
+
+* add first chapter information (1eb7251b7af5)
+
 ## v1.1.4
 
 ## v1.1.3
