@@ -32,7 +32,7 @@ Hinweise
 --------
 
 Der Titel sollte sich gut erkennbar von den weiteren Angaben abheben und
-den groessten Schriftgrad? aufweisen.
+den grössten Schriftgrad? aufweisen.
 
 Weitere Angaben entnehmen Sie bitte aus den Prüfungsordnungen bzw.
 Merkblättern die am betreuenden Institut ausliegen.
@@ -43,7 +43,7 @@ Vorlagen
 .. code-block:: none
 
                                       Fakultät IV
-        [LOGO UNIVERSITAET]           Institut für Energie
+        [LOGO UNIVERSITÄT]           Institut für Energie
                                       und Automatisierungstechnik
 
                              Masterarbeit

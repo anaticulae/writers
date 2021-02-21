@@ -9,7 +9,7 @@ Prüfungsordnung bewusst sind. Ein schwerwiegender Verstoss führt in
 der Regel zur Aberkennung des erlangten akademischen Grades. Die genauen
 Formulierungen der Erklärung sind der Prüfungsordnung zu entnehmen.
 
-Die eidesstattliche Erklärung ist moeglichst **direkt nach dem
+Die eidesstattliche Erklärung ist möglichst **direkt nach dem
 Titelblatt** in die Arbeit einzufügen. Die eidesstattliche Erlärung
 wird nicht in das Inhaltsverzeichnis aufgenommen und hat keinerlei
 Einfluss auf die Seitenzählung. [#theissen2017_239_241]_ Weiterhin ist

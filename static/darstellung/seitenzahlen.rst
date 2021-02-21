@@ -3,11 +3,11 @@
 Seitenzahlen
 ============
 
-Seitenzahlen ermoeglichen das eindeutige und schnelle Auffinden von
+Seitenzahlen ermöglichen das eindeutige und schnelle Auffinden von
 Inhalten in Ihrer Publikation. Dabei wird jede Seite aufsteigend
-nummeriert. Es ist moeglich saemtliche Seiten mit arabischen Ziffern zu
-nummerieren. Weiterhin ist es zusaetzlich moeglich Verzeichnisse und
-Anhaenge durch roemische Ziffern abzugrenzen. Die erste Seite des
+nummeriert. Es ist möglich sämtliche Seiten mit arabischen Ziffern zu
+nummerieren. Weiterhin ist es zusätzlich möglich Verzeichnisse und
+Anhänge durch römische Ziffern abzugrenzen. Die erste Seite des
 Inhaltsteils beginnt immer mit der Seitenzahl 1.
 
 [#theissen2017_207]_, [#assis]_,

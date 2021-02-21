@@ -8,8 +8,8 @@ Einblick über den Inhalt und die Struktur der vorliegenden Publikation.
 Zur Darstellung des Inhaltsverzeichnisses bieten sich zwei Techniken
 an.
 
-In den meisten Faellen kommt ein nummerisches Ordnungssystem zur
-Anwendung. Dabei erhaelt jeder Gliederungspunkt eine eindeutige Folge
+In den meisten Fällen kommt ein nummerisches Ordnungssystem zur
+Anwendung. Dabei erhält jeder Gliederungspunkt eine eindeutige Folge
 von Ziffern (1.1, 1.1.1, 1.1.2. etc.).
 
 Als weitere eher klassische Strukturierungsmethode ist das
@@ -26,8 +26,8 @@ Linienprinzip
 Das Linienprinzip ist das verbreiteste Ordnungssystem und wird von allen
 modernen Textverarbeitungssystemen als Standard angeboten. Bei der
 numerischen Ordnung ist drauf zu achten nicht zu tief zu gliedern, da
-sonst sehr unuebersichtliche Zahlenkollonen entstehen. Eine zusaetzliche
-Einteilung in Kapitel erzeugt Mehrdeutigkeiten bezueglich der
+sonst sehr unübersichtliche Zahlenkollonen entstehen. Eine zusätzliche
+Einteilung in Kapitel erzeugt Mehrdeutigkeiten bezüglich der
 Zahlenkollonen und ist daher zu vermeiden.
 
 .. code-block:: none
@@ -59,7 +59,7 @@ Tiefe der Gliederung
 Beim Strukturieren der Publikation sollte darauf geachtet werden die
 Gedanken nicht zu kleinteilig zu verschachteln. Die Anzahl der maximalen
 Gliederungspunkte richtet sich nach dem Umfang der Publikation. Durch
-die Wahl von zu vielen Unterpunkten geht die Sicht fuer das Grosse Ganze
+die Wahl von zu vielen Unterpunkten geht die Sicht für das Grosse Ganze
 sehr schnell verloren. Als Richtwerte eignen sich folgende Erfahrungswerte:
 
 * Bachelorarbeit/Masterarbeit: Maximale Tiefe 3 (1.1.1, 1.1.2)
@@ -68,10 +68,10 @@ sehr schnell verloren. Als Richtwerte eignen sich folgende Erfahrungswerte:
 Aufsteigende Seitenzahlen
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Zur eindeutigen Identifizierung des Inhalts enthaelt das
+Zur eindeutigen Identifizierung des Inhalts enthält das
 Inhaltsverzeichnis strikt aufsteigende Seitenzahlen. Dies klingt
-trivial, ist aber besonders beim Wechsel von Roemischen und Arabischen
-Zahlen zu beachten. Falls fuer die Titellei roemische Seitenzahlen
+trivial, ist aber besonders beim Wechsel von Römischen und Arabischen
+Zahlen zu beachten. Falls für die Titellei römische Seitenzahlen
 verwendet werden ist darauf zu achten dass der Anhang fortlaufend zur
 Titellei nummeriert wird und nicht wieder bei 'I' startet.
 
@@ -80,14 +80,14 @@ Weite Informationen befinden sich in [TOOD:!Seitenzahlen!]
 Ausnahmen:
 
 * Die :ref:`elemente_erklaerung` ist nicht Teil der
-  Seitenzaelung [#theissen2017_239]_
+  Seitenzälung [#theissen2017_239]_
 
-Abkuerzungen
+Abkürzungen
 ~~~~~~~~~~~~
 
-Das Inhaltsverzeichnis sollte frei von Abkuerzungen sein, da es dem
-Leser den Eintiegspunkt in die Publikation liefert. Abkuerzungen im
-Inhaltsverzeichnis koennen dabei abschreckend wirken und erschweren die
+Das Inhaltsverzeichnis sollte frei von Abkürzungen sein, da es dem
+Leser den Eintiegspunkt in die Publikation liefert. Abkürzungen im
+Inhaltsverzeichnis können dabei abschreckend wirken und erschweren die
 Navigation im Text.
 
 Kapitelstruktur
@@ -106,9 +106,9 @@ Beispiel:
     1.1    Maschinenpark
     1.2    Fuhrpark
     1.2.1. KFZ
-    1.3    Gebauede
+    1.3    Gebaüde
 
-Dies weist auf eine ungenuegende Gliederung hin. ``KFZ`` ist hierbei in
+Dies weist auf eine ungenügende Gliederung hin. ``KFZ`` ist hierbei in
 ``Fuhrpark`` zu intergrieren und durch einen besseren gemeinsamen
 Strukturpunkt zu ersetzen.
 
@@ -126,13 +126,13 @@ Hinweise
 --------
 
 Bei der Struktuierung des Inhaltsverzeichnisses sollte das Suchverhalten
-von kuenftigen Leserinnen und Lesern beruecksichtig werden. Nach welchen
-Schlagworten werden diese wohlmoeglich recherchieren. Eine Publikation
+von künftigen Leserinnen und Lesern berücksichtig werden. Nach welchen
+Schlagworten werden diese wohlmöglich recherchieren. Eine Publikation
 die nicht gefunden werden kann, kann auch nicht gelesen werden.
 
-Diese Optimierung sollte jedoch mit Augenmass durchgefuehrt werden. Es
-ist fuer den Leser sehr enttaeuschend aufgrund von Schlagworten die
-Publikation auszuwaehlen und dann nicht fuendig zu werden.
+Diese Optimierung sollte jedoch mit Augenmass durchgeführt werden. Es
+ist für den Leser sehr enttäuschend aufgrund von Schlagworten die
+Publikation auszuwählen und dann nicht fündig zu werden.
 
 Vorlagen
 --------

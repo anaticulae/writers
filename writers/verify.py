@@ -18,7 +18,7 @@ import writers
 def validate(reference: str):
     """Check that reference is defined in docs.
 
-    >>> validate('elemente/inhaltsverzeichnis.html#abkuerzungen')
+    >>> validate('elemente/inhaltsverzeichnis.html#abkurzungen')
     >>> validate('aufbau_gliederung/index.html')
 
     >>> validate('index.html#notexists')

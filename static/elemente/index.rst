@@ -41,7 +41,7 @@ der Regel zur Aberkennung des erlangten akademischen Titels.
 
 **Inhaltsverzeichnis**
 
-Das Inhaltsverzeichnis gibt dem Leser einen schnellen Einblick ueber den
+Das Inhaltsverzeichnis gibt dem Leser einen schnellen Einblick über den
 Inhalt und die Struktur der vorliegenden Publikation. Zur Darstellung
 des Inhaltsverzeichnissses bieten sich zwei Techniken an.
 :ref:`Weiterlesen... <elemente_inhaltsverzeichnis>`
@@ -54,7 +54,7 @@ Tabellen
 
 **Abkürzungsverzeichnis**
 
-Das Abkürzungsverzeichnis ermoeglicht es der Leserin oder dem Leser im
+Das Abkürzungsverzeichnis ermöglicht es der Leserin oder dem Leser im
 Text verwendete Abkürzungen nachzuschlagen.
 :ref:`Weiterlesen... <elemente_abkuerzungsverzeichnis>`
 

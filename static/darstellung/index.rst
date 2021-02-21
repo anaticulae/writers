@@ -25,7 +25,7 @@ Darstellung
 
 :ref:`Weiterlesen... <darstellung_mathematik>`
 
-**Absaetze**
+**Absätze**
 
 **Fusszeile**
 

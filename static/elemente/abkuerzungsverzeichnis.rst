@@ -21,7 +21,7 @@ Homonyme
 --------
 
 Mehrdeutige Abkürzungen (Beispiel) sind im Text bei der ersten Nennung
-vollständing auszuschreiben und dem Abkürzungsverzeichnis hinzuzufuegen.
+vollständing auszuschreiben und dem Abkürzungsverzeichnis hinzuzufügen.
 [#theissen2017_212_213]_
 
 Literatur und Quellen
