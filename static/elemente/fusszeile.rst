@@ -44,4 +44,4 @@ Literatur und Quellen
 ---------------------
 
 .. [#theissen2017_186] `Theissen:2017; Seite 186 <{amazon:theissen_2017}>`_.
-.. [#eco2010_200_213] `Eco Umberto:2010:; Seite 210-213 <{amazon:eco_2010}>`_.
+.. [#eco2010_200_213] `Eco Umberto:2010; Seite 210-213 <{amazon:eco_2010}>`_.
