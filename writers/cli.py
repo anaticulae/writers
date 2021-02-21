@@ -26,10 +26,14 @@ def main():
     parser = utila.cli.create_parser(
         todo=commands,
         config=utila.ParserConfiguration(
+            cacheflag=False,
             inputparameter=False,
+            multiprocessed=False,
             outputparameter=False,
+            pages=False,
             prefix=False,
             verboseflag=True,
+            waitingflag=False,
         ),
         version=writers.__version__,
     )
