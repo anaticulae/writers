@@ -1,0 +1,20 @@
+.. _1_3_0:
+
+RP 1.3.0
+=========
+
+This is a motivation sprint. The aim of this sprint is to create five
+new articles.
+
+article
+-------
+
+* [ ] Sonderzeichen
+
+* [ ] Grauwert
+
+* [ ] Fußnoten Separator
+
+* [ ] Leerzeichen
+
+* [ ] Abkürzungsverzeichnis

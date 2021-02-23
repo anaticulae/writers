@@ -13,6 +13,7 @@ Textverarbeitung
   :maxdepth: 1
 
   festabstand
+  sonderzeichen
   texteditor
   literaturverwaltung
 
