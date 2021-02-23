@@ -9,7 +9,7 @@ new articles.
 article
 -------
 
-* [ ] Sonderzeichen
+* [x] Sonderzeichen
 
 * [ ] Grauwert
 
