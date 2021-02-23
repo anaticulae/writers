@@ -7,6 +7,12 @@ Fußnoten ergänzen den Inhalt des Textes. Dabei umfasst die Fußnote
 Quellen, Kommentare und Ergänzungen. Das Lesen des Textes muss ohne
 Kenntniss der Fußnoten möglich sein. [#theissen2017_202]_
 
+Zitierstrich
+------------
+
+Der Fußnotentext ist unter dem Zitierstrich anzubringen. Der
+Zitierstrich umfasst mindestens 1/3 der Textbreite.
+
 Struktur
 --------
 
@@ -31,11 +37,24 @@ Mehrdeutigkeit der Fußnoten.
 Formatierung
 ------------
 
-Der Fußnotentext ist unter dem Zitierstrich in Schriftgröße 10 Punkten
-zu schreiben. Zwischen den Fußnoten ist ein einfacher Zeilenabstand
-zuverwenden. Es ist darauf zu achten, dass Fußnote und Inhalt auf der
-selben Seite plaziert werden(Technik/TODO: Seitenende/Absätze nicht
-trennen).
+Der Fußnotentext ist in Schriftgröße 10 Punkten zu schreiben. Zwischen
+den Fußnoten ist ein einfacher Zeilenabstand zuverwenden. Es ist darauf
+zu achten, dass Fußnote und Inhalt auf der selben Seite plaziert
+werden(Technik/TODO: Seitenende/Absätze nicht trennen).
+
+Beispiel
+--------
+
+.. code-block:: none
+
+    ... Text ...
+
+    ------------------------
+    [1] Typografie: 2017; Seite 43ff.
+    [2] Typografie: 2017; Seite 52-53.
+    [3] Wegweiser Schrift: 2017; Seite 35.
+
+
 
 Literatur und Quellen
 ---------------------

@@ -13,7 +13,7 @@ article
 
 * [x] Grauwert
 
-* [ ] Fußnoten Separator
+* [x] Fußnoten Separator
 
 * [ ] Leerzeichen
 
