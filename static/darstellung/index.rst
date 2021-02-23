@@ -9,6 +9,7 @@ Darstellung
   seitenrand
   seitenzahlen
   mathematik
+  grauwert
 
 --------------------------------
 

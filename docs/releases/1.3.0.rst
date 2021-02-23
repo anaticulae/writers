@@ -11,7 +11,7 @@ article
 
 * [x] Sonderzeichen
 
-* [ ] Grauwert
+* [x] Grauwert
 
 * [ ] Fußnoten Separator
 

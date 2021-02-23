@@ -40,10 +40,12 @@ Einflüsse auf die Lesbarkeit
 * Übersichtlichkeit organisieren (Auszeichnungen richtig wählen,
   Satzdetails, unbedruckte Fläche mit einbeziehen)
 
-[#wegweiserschrift2017_35]_
+[#typografie2017_43]_, [#wegweiserschrift2017_35]_
 
+Grauwert
+~~~~~~~~
 
-[#typografie2017_43]_
+:ref:`Weiterlesen... <text_grauwert>`
 
 Trennungen
 ----------
