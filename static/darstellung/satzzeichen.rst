@@ -66,6 +66,9 @@ Vor und nach dem Schrägstrich wird kein Leerzeichen gesetzt.
 
 Siehe DUDEN K155.
 
+Komma
+-----
+
 Semikolon
 ---------
 
@@ -91,6 +94,3 @@ Literatur und Quellen
    126-127 <{amazon:typografie5_2016}>`_.
 
 .. [#duden2004_90] `DUDEN: 2004; Seite 90 <{amazon:duden_2004}>`_.
-
-Literatur und Quellen
----------------------
