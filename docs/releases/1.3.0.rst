@@ -15,6 +15,6 @@ article
 
 * [x] Fußnoten Separator
 
-* [ ] Leerzeichen
+* [x] Leerzeichen
 
 * [ ] Abkürzungsverzeichnis

@@ -10,6 +10,7 @@ Darstellung
   seitenzahlen
   mathematik
   grauwert
+  schreibweise
 
 --------------------------------
 
