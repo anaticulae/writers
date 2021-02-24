@@ -24,6 +24,67 @@ Mehrdeutige Abkürzungen (Beispiel) sind im Text bei der ersten Nennung
 vollständing auszuschreiben und dem Abkürzungsverzeichnis hinzuzufügen.
 [#theissen2017_212_213]_
 
+Gebräuchliche Abkürzungen
+-------------------------
+
+Die folgenden gebräuchlichen Abkürzungen müssen nicht im
+Abkürzungsverzeichnis enthalten sein. Halten Sie Ihr
+Abkürzungsverzeichnis kurz und übersichtlich.
+
+.. list-table:: Übersicht der üblicher Abkürzungen ?GUGELHUPF 322
+   :widths: 200,400
+
+   * - Abkürzung
+     - Bedeutung
+   * - a\. a\. O\.
+     - am angegeben Ort
+   * - Aufl.
+     - Auflage
+   * - Bd.
+     - Band
+   * - d\. h\.
+     - das heißt
+   * - ders, dies
+     - derselbe, dieselbe
+   * - Diss.
+     - Dissertation
+   * - ebd\., ebda
+     - ebenda, an gleich Stelle
+   * - et\. al\.
+     - et alia; und andere
+   * - H\.
+     - Heft
+   * - Hrsg\.
+     - Herausgeber
+   * - Jg\.
+     - Jahrgang
+   * - Kap\.
+     - Kapitel
+   * - Nachdr.
+     - Nachdruck
+   * - o\. J\.
+     - ohne Jahr
+   * - o\. O\.
+     - ohne Ort
+   * - o\. S\.
+     - ohne Seitenangabe
+   * - o\. V\.
+     - ohne Verfasserangabe
+   * - S\.
+     - Seite(n)
+   * - s\.
+     - siehe
+   * - überarb.
+     - überarbeitet
+   * - u\. a\.;
+     - und andere
+   * - vgl\.
+     - vergleiche
+   * - zit\. n\.
+     - zitiert nach
+   * - z\. B\.
+     - zum Beispiel
+
 Literatur und Quellen
 ---------------------
 
