@@ -36,6 +36,8 @@ Prozent, Promille und Grad-Zeichen
 Vor dem Prozent und Promille-Zeichen wird ein Festabstand gesetzt. Bei
 Ableitungen als Wort entfällt dieser Leerschritt:
 
+.. code-block:: none
+
     24 %
     0,5 ‰
     20%ige Gewinnsteigerung
@@ -43,9 +45,13 @@ Ableitungen als Wort entfällt dieser Leerschritt:
 Bei Temperaturen steht zwischen Ziffer und Gradzeichen ein kleiner
 Zwischenraum:
 
+.. code-block:: none
+
     10 °C
 
 Bei geometrischen Angaben entfällt dieser Zwischenraum:
+
+.. code-block:: none
 
     100°
 
