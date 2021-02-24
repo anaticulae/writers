@@ -2,6 +2,26 @@
 
 Every noteable change is logged here.
 
+## v1.3.0
+
+### Feature
+
+* extend abkuerzungsverzeichnis (17c453ff20c9)
+* add article schreibweise to describe using spaces (6f8c4fe4b112)
+* improve satzzeichen article structure (e4bad8a146ba)
+* add paragraph zitierstrich and example (b0d150795915)
+* add grauwert article (54255170767a)
+* add sonderzeichen article (e663e38890f1)
+
+### Fix
+
+* fix umlaute (77179f3f90a1)
+* disable unused flags (400360e60458)
+
+### Documentation
+
+* fix typo (ebb58c252883)
+
 ## v1.2.0
 
 ### Feature
