@@ -24,7 +24,7 @@ TODO: Buchpublikation: Position rechte Seite, ungerade Seite
 Anforderungen
 -------------
 
-Die Seitenzahlen sind strikt fortluafend nummeriert.
+Die Seitenzahlen sind strikt fortlaufend nummeriert.
 
 
 Literatur und Quellen
