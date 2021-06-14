@@ -16,7 +16,7 @@ Schwarze Klumpen entstehen durch die Verwendung von **Fettschrift**,
 Unterstreichungen, und Sperrungen. Dies kann durch Verwendung von
 *kursiver Schrift* oder GROSS-SCHRIFT vermieden werden.
 
-[#typografie2016_306]_
+[#typografie2016_103]_
 
 Hervorhebungen
 --------------
@@ -42,4 +42,4 @@ Falsch
 Literatur und Quellen
 ---------------------
 
-.. [#typografie2016_306] `Grundkurs Typografie und Layout: 2016; Seite 306-307 <{amazon:typografie5_2016}>`_.
+.. [#typografie2016_103] `Grundkurs Typografie und Layout: 2016; Seite 103-107 <{amazon:typografie5_2016}>`_.
