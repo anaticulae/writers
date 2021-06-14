@@ -18,8 +18,27 @@ Unterstreichungen, und Sperrungen. Dies kann durch Verwendung von
 
 [#typografie2016_103]_
 
-Hervorhebungen
+Auszeichnung
 --------------
+
+Innerhalb wissenschaftlicher Texte sollten nur ästhetische
+Auszeichnungen verwendet werden. Optische Auszeichnungen eignen sicher
+eher für Werbung und Plakate.
+
+Ästhetische Auszeichnung
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+* kursive Schrift
+* Kapitälchen
+* Versalien
+
+Optische Auszeichnung
+~~~~~~~~~~~~~~~~~~~~~
+
+* halbfette/fette Schriften
+* Sperrungen
+* Unterstreichungen
+* farbiger Text
 
 Richtig
 ~~~~~~~
