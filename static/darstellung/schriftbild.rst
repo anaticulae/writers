@@ -3,6 +3,25 @@
 Schriftbild
 ===========
 
+Zeilenabstand
+-------------
+
+Der Zeilenabstand bezeichnet den Abstand zweier Schriftlinien
+zueinander. Der optimale Zeilenabstand ist von der gewählten
+Schriftgröße abhängig.
+
+Je größer die Schriftgröße desto kleiner wird der relative
+Zeilenabstand gewählt. Für Schriftarten zwischen 9-12pt sollte eine
+Zeilenabstand von 120% gewählt werden. Ein zu geringer Zeilenabstand
+erhöht den Grauwert des Texts und lässt den Text gedrungen erscheinen.
+Wird der Textabstand zu groß gewählt verringert sich der Grauwert und
+der Text fällt optisch auseinander.
+
+# TODO: Wortabstand
+# TODO: Zeichenabstand
+
+[#typografie2017_147]_
+
 Satzarten
 ---------
 
@@ -76,5 +95,7 @@ Literatur und Quellen
 .. [#typografie2017_43] `Typografie: 2017; Seite 43ff. <{amazon:typografie_2017}>`_
 
 .. [#typografie2017_52_53] `Typografie: 2017; Seite 52-53. <{amazon:typografie_2017}>`_
+
+.. [#typografie2017_147] `Typografie: 2017; Seite 147. <{amazon:typografie_2017}>`_
 
 .. [#wegweiserschrift2017_35] `Wegweiser Schrift: 2017; Seite 35. <{amazon:wegweiseer_2017}>`_
