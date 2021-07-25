@@ -73,11 +73,12 @@ def solve(reference: str):
     return reference.replace('#', '.html#')
 
 
-URL_PATTERN = r"""(
-                  {(?P<link>[\w\-\.#/]+)}       # support .html and #anker in links
-                  (?:\[(?P<description>\w+)\])? # optional description
-                  )
-               """
+URL_PATTERN = r"""
+    (
+        {(?P<link>[\w\-\.#/]+)}             # support .html and #anker in links
+        (?:\[(?P<description>\w+)\])?       # optional description
+    )
+"""
 
 
 def replace(content: str, url: str, template: callable = None) -> str:
