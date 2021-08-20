@@ -11,7 +11,6 @@ import os
 import re
 
 import utila
-
 import writers
 
 
@@ -39,19 +38,17 @@ def validate(reference: str):
     """
     source = writers.build()
     assert os.path.exists(source), str(source)
-
     reference = solve(reference)
     try:
         _path, _ref = reference.split('#')
         _ref = f'#{_ref}'
     except ValueError:
         _path, _ref = reference, ''
-
     path = os.path.join(source, _path)
     if not os.path.exists(path):
         raise FileNotExists(path)
     content = utila.file_read(path)
-    if not _ref in content:
+    if _ref not in content:
         raise HashNotExists(_ref)
 
 
@@ -65,7 +62,7 @@ def solve(reference: str):
     >>> solve('elemente#helm')
     'elemente.html#helm'
     """
-    if not '#' in reference and not '.html' in reference:
+    if '#' not in reference and '.html' not in reference:
         return f'{reference}.html'
     if '.html' in reference:
         # no simple refrence
