@@ -28,12 +28,12 @@ if not 'PYTEST_XDIST_WORKER' in os.environ:
 
 MSG = (f'could not locate: {writers.build()}\n'
        'run `baw --test=generate` to generate')
-assert os.path.exists(writers.build()), MSG
 
 
 @pytest.fixture
 def app(testdir):
     """Create and configure a new app instance for each test."""
+    assert os.path.exists(writers.build()), MSG
     root = testdir.tmpdir
     assert writers.generator.generate(path=root) == utila.SUCCESS
     application = writers.web.create(path=root)
