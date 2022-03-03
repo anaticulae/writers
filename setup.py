@@ -44,9 +44,7 @@ if __name__ == "__main__":
             'Programming Language :: Python :: 3.8',
         ],
         entry_points={
-            'console_scripts': [
-                'writers = writers.cli:main',
-            ],
+            'console_scripts': ['writers = writers.cli:main',],
         },
         packages=[
             'writers',

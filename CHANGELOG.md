@@ -294,4 +294,3 @@ Every noteable change is logged here.
 * add first draft of global document structure (2d8694896a76)
 
 ## v0.0.0 Initial release
-
