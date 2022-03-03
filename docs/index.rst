@@ -1,5 +1,5 @@
 Welcome to let the docs grow
-=================================
+============================
 
 General
 -------
@@ -28,11 +28,12 @@ Developer
   howto
 
 Modules
---------------------
+-------
+
 .. toctree::
    :maxdepth: 4
 
-   .tmp/modules
+   modules
 
 Indices and tables
 ==================
