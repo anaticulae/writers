@@ -9,9 +9,21 @@ Datum und Uhrzeit
 Im deutschsprachrigen Raum wird die Schreibweise *Tag, Montag Jahr*
 verwendet. Nach DIN 5008 wird die internationale Reihenfolge *Jahr,
 Monat, Tag* verwendet. Zwischen Tag und Monat wird ein kleiner
-Festabstand gesetzt.
+Festabstand gesetzt. [#duden2004_91]_, [#typografie2016_124]_
 
-[#duden2004_91]_, [#typografie2016_124]_
+.. code-block:: none
+
+    27.02.2022
+    27. Juli 2022
+    Mittwoch, 27. Juli 2022
+
+    9.40 Uhr
+    09.40 Uhr
+    9:40 Uhr
+    09:40 Uhr
+
+    von 10:00 bis 20:00 Uhr
+    10:00 - 20:00 Uhr
 
 DIN, ISO, ISBN
 --------------
