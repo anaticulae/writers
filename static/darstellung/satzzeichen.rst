@@ -128,15 +128,13 @@ Semikolon
 
 Das Semikolon dient der Abgrenzung gleichrangiger bzw. nebengeordneter
 Teilsätze oder Wortgruppen. Ein Semikolon trennt dabei schärfer als ein
-Komma, jedoch weniger als ein Punkt.
+Komma, jedoch weniger als ein Punkt [#rechtschreibung_83]_.
 
 .. code-block:: none
 
     Im Hausflur war es still, ich drückte erwartungsvoll auf die Klingel.
     Im Hausflur war es still; ich drückte erwartungsvoll auf die Klingel.
     Im Hausflur war es still. Ich drückte erwartungsvoll auf die Klingel.
-
-[#rechtschreibung_83]_
 
 Paragraphzeichen
 ----------------
@@ -154,15 +152,13 @@ einzelne Punkt sondern durch ein einzelnes Sonderzeichen eingegeben:
     WINDOWS/WORD: ALT+0133 - Die Ziffern werden durch den Numernblock eingegeben.
 
 Die Zeichensetzung bei der Verwendung der Ellipse ist je nach Stellung
-im Satz durch folgende Regeln bestimmt:
+im Satz durch folgende Regeln bestimmt [#rechtschreibung_93]_, [#duden2004_90]_:
 
 * Einzelnes Wort: Vor und nach der Auslassung steht ein Leerzeichen.
 * Wortauslassung: Du bist ein E…!
 * Am Satzende 1 (Punkt): Ich gehe zur …
 * Am Satzende 2 (Ausrufezeichen): Scher dich zum …!
 * Am Satzende 3 (Fragezeichen): Kommst du zum …?
-
-[#rechtschreibung_93]_, [#duden2004_90]_
 
 Klammer
 -------
