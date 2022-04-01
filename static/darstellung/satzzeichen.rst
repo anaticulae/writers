@@ -85,11 +85,25 @@ Paragraphzeichen
 Auslassungspunkte
 -----------------
 
-Ellipse
-ALT+0133
-DUDEN Seite 90
+Auslassungen werden durch eine Ellipse(…) deutlich gemacht. Dabei können
+die drei Punkte für ein einzelnes Wort einen ganzen Satz oder einen
+ganzen Abschnitt stehen. D5e Ellipse wird dabei nicht durch drei
+einzelne Punkt sondern durch ein einzelnes Sonderzeichen eingegeben:
 
-[#duden2004_90]_
+.. code-block:: none
+
+    WINDOWS/WORD: ALT+0133 - Die Ziffern werden durch den Numernblock eingegeben.
+
+Die Zeichensetzung bei der Verwendung der Ellipse ist je nach Stellung
+im Satz durch folgende Regeln bestimmt:
+
+* Einzelnes Wort: Vor und nach der Auslassung steht ein Leerzeichen.
+* Wortauslassung: Du bist ein E…!
+* Am Satzende 1 (Punkt): Ich gehe zur …
+* Am Satzende 2 (Ausrufezeichen): Scher dich zum …!
+* Am Satzende 3 (Fragezeichen): Kommst du zum …?
+
+[#rechtschreibung_93]_, [#duden2004_90]_
 
 Literatur und Quellen
 ---------------------
@@ -101,5 +115,7 @@ Literatur und Quellen
    126-127 <{amazon:typografie5_2016}>`_.
 
 .. [#duden2004_90] `DUDEN: 2004; Seite 90 <{amazon:duden_2004}>`_.
+
+.. [#rechtschreibung_93] `Deutsche Rechtschreibung: XXXX; Seite 90, § 99 <{amazon:rechtschreibung_xxx}>`_.
 
 .. [#wordtuhls2019_150] `Wissenschaftliches Arbeiten schreiben mit Word: 2019; Seite 150ff. <{amazon:wordtuhls2019}>`_.
