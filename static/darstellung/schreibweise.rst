@@ -36,6 +36,19 @@ Schreibweise unterschieden. Ziffern werden für konkrete Angaben
 verwendet: *25,3 kg*. Eine alphabetische Schreibweise ist bei ungefähren
 Angaben anzuwenden: *Er hat endlich fünf Kilo zugenommen.*
 
+IBAN und BIC
+------------
+
+Die BIC wird nicht gegliedert und umfasst entweder 8 oder 11 Zeichen.
+Die IBAN besteht aus 22 Stellen und wird im besten fall in Vierergruppen
+gegliedert. [#typografie2016_124]_
+
+.. code-block:: none
+
+    BIC GTHIAT49
+    BIC GTHIAT49493
+
+    IBAN DE32 4003 0404 2000 4999 16
 
 TODO: EXTEND
 
