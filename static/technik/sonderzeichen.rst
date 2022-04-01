@@ -55,7 +55,7 @@ Kodierung
      - &#223;
      - ALT+0223
      - &szlig;
-   * - Paragrafenzeichen
+   * - Paragraphenzeichen
      - §
      - &#167;
      - ALT+0167

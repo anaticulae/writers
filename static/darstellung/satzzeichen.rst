@@ -79,8 +79,8 @@ Komma
 Semikolon
 ---------
 
-Paragrafzeichen
----------------
+Paragraphzeichen
+----------------
 
 Auslassungspunkte
 -----------------
