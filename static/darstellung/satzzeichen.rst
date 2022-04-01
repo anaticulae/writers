@@ -3,6 +3,13 @@
 Satzzeichen
 ===========
 
+Satzzeichen dienen der Trennung und Strukturierung von Wörtern zu
+Sätzen. Dabei folgenden Satzzeichen direkt auf das vorhergehende Wort
+und werden durch ein Leerzeichen vom nächsten Wort getrennt.
+Gedankenstriche werden als einzige auf beiden Seiten durch ein
+Leerzeichen von den Wörtern getrennt. Nach einer öffnenden Klammer folgt
+kein Leerzeichen. [#wordtuhls2019_150]_
+
 Anführungszeichen
 -----------------
 
@@ -94,3 +101,5 @@ Literatur und Quellen
    126-127 <{amazon:typografie5_2016}>`_.
 
 .. [#duden2004_90] `DUDEN: 2004; Seite 90 <{amazon:duden_2004}>`_.
+
+.. [#wordtuhls2019_150] `Wissenschaftliches Arbeiten schreiben mit Word: 2019; Seite 150ff. <{amazon:wordtuhls2019}>`_.
