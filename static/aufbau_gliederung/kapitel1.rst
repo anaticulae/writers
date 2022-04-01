@@ -37,4 +37,7 @@ Folgende Möglichkeiten ergeben sich um eine Hinführung zu erreichen:
 [5] Aufbau der Arbeit
 ---------------------
 
+Literatur und Quellen
+---------------------
+
 .. [#kornmeier2018_110] `Kornmeier:2018; "Wissenschaftlich Schreiben leicht gemacht" Seite 110ff <{amazon:kornmeier_2018}>`_.
