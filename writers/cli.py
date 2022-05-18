@@ -17,26 +17,7 @@ import writers.web
 
 @utila.saveme
 def main():
-    commands = [
-        utila.cli.Flag('--build', message=('generate docs')),
-        utila.cli.Flag('--show', message=('open generated docs')),
-        utila.cli.Flag('--run', message=('run webserver')),
-        utila.cli.Flag('--dirty', message=('ignore errors')),
-    ]
-    parser = utila.cli.create_parser(
-        todo=commands,
-        config=utila.ParserConfiguration(
-            cacheflag=False,
-            inputparameter=False,
-            multiprocessed=False,
-            outputparameter=False,
-            pages=False,
-            prefix=False,
-            verboseflag=True,
-            waitingflag=False,
-        ),
-        version=writers.__version__,
-    )
+    parser = create_parser()
     args = utila.parse(parser)
     verbose = args['verbose'] is not None
     if args['build'] or args['run']:
@@ -52,3 +33,29 @@ def main():
         if writers.generator.open_generated():
             return utila.FAILURE
     return utila.SUCCESS
+
+
+CMDS = [
+    utila.cli.Flag('--build', message=('generate docs')),
+    utila.cli.Flag('--show', message=('open generated docs')),
+    utila.cli.Flag('--run', message=('run webserver')),
+    utila.cli.Flag('--dirty', message=('ignore errors')),
+]
+
+
+def create_parser():
+    parser = utila.cli.create_parser(
+        todo=CMDS,
+        config=utila.ParserConfiguration(
+            cacheflag=False,
+            inputparameter=False,
+            multiprocessed=False,
+            outputparameter=False,
+            pages=False,
+            prefix=False,
+            verboseflag=True,
+            waitingflag=False,
+        ),
+        version=writers.__version__,
+    )
+    return parser
