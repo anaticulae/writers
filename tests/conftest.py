@@ -11,20 +11,22 @@ import os
 
 import pytest
 import utila
-import utilatest
 
-import tests.update
 import writers.generator
 import writers.web
 
 pytest_plugins = ['pytester', 'xdist']  # pylint: disable=invalid-name
 
-if not 'PYTEST_XDIST_WORKER' in os.environ:
-    if 'GENERATE' in os.environ or utilatest.LONGRUN:
-        utila.log('install requirements')
-        tests.update.install_requirements()
 
-        tests.update.update_resources()
+@pytest.mark.usefixtures('session')
+def pytest_sessionstart():
+    if os.path.exists(writers.html()):
+        return
+    build = writers.build()
+    os.makedirs(build, exist_ok=True)
+    returncode = writers.generator.generate(path=build)
+    assert returncode == utila.SUCCESS
+
 
 MSG = (f'could not locate: {writers.build()}\n'
        'run `baw --test=generate` to generate')
