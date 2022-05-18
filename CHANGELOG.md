@@ -2,6 +2,34 @@
 
 Every noteable change is logged here.
 
+## v1.4.0
+
+### Feature
+
+* add semikolon and extend divis (05036044f12a)
+* add Auslassungspunkte (580233f94f44)
+* add BIC and IBAN (acb47f104cde)
+* add date examples (9248ed41134e)
+* add introduction (4c074e22b0a5)
+* add paragraph Zeilenabstand (22060945d00d)
+* extend article (bb45a8498ba4)
+* add paragraph `Komma` (dae9a15223cb)
+
+### Fix
+
+* move ref to better place (f502abbffb46)
+* fix spelling error (b70d6df2a9c4)
+* add missing source tag (5eb5f509eae2)
+* fix spelling error (c2a6ff9f596a)
+* adjust source (a87129730dfa)
+* format examples (6cfbc68aa27b)
+
+### Documentation
+
+* adjust modules path (e76d991fc006)
+* Happy New Year! (8d7f747048cf)
+* Happy New Year! (ab39b9e734d9)
+
 ## v1.3.0
 
 ### Feature
