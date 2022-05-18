@@ -18,12 +18,12 @@ def test_cli_help(monkeypatch):
     tests.run_writers('--help', monkeypatch=monkeypatch)
 
 
-@utilatest.skip_longrun
+@utilatest.longrun
 def test_cli_build(testdir, monkeypatch):
     tests.run_writers('--build', monkeypatch=monkeypatch)
 
 
-@utilatest.skip_longrun
+@utilatest.longrun
 def test_cli_show(testdir, monkeypatch):
     with monkeypatch.context() as context:
         context.setattr(webbrowser, 'open', lambda x: x)

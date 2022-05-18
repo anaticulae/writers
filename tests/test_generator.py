@@ -16,7 +16,7 @@ import utilatest
 import writers.generator
 
 
-@utilatest.skip_longrun
+@utilatest.longrun
 @pytest.mark.parametrize('show', [True, False])
 def test_generator_generate(show, testdir, monkeypatch):
     root = testdir.tmpdir
