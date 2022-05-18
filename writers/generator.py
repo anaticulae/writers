@@ -16,10 +16,10 @@ import writers
 
 
 def generate(
-        path: str = None,
-        show: bool = False,
-        dirty: bool = False,
-        verbose: bool = False,
+    path: str = None,
+    show: bool = False,
+    dirty: bool = False,
+    verbose: bool = False,
 ) -> int:
     """Use Sphinx to generate documentation. If `path` is None the
     default doc output location is used, if not path must exists and the
