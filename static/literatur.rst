@@ -9,6 +9,7 @@ Schnelleinstieg
 Wissenschaftliches Arbeiten
 ---------------------------
 
+* `Bänsch A., Alewell D. (2020): Wissenschaftliches Arbeiten 12. Auflage <{amazon:bansch2020}>`_
 * `Kornmeier M. (2018): Wissenschaftlich schreiben leicht gemacht, 8. Aufl., Bern 2018 <{amazon:kornmeier_2018}>`_
 * `Theisen M. R. (2018): Wissenschaftliches Arbeiten - Erfolgreich bei Bachelor- und Masterarbeit, 17. Aufl., München 2017 <{amazon:theissen_2017}>`_
 
