@@ -1,24 +1,9 @@
 Druck und Publikation
 =====================
 
-Druck
------
+.. toctree::
+  :maxdepth: 1
 
-Vorbereitung
-~~~~~~~~~~~~
-
-Durchführung
-~~~~~~~~~~~~~
-
-Korrektur
-~~~~~~~~~
-
-
-Publikation
------------
-
-Online
-~~~~~~
-
-Offline
-~~~~~~~
+  druck
+  publikation
+  checkliste
