@@ -7,8 +7,8 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
-wclub>=0.2.9<1.0.0
-utila>=2.73.2<3.0.0
+wclub>=0.2.10<1.0.0
+utila>=2.75.0<3.0.0
 
 Sphinx>=1.8.5<2.0.0
 Flask>=1.1.2<2.0.0
