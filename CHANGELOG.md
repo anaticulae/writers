@@ -2,6 +2,26 @@
 
 Every noteable change is logged here.
 
+## v1.5.0 (2022-10-01)
+
+### Feature
+
+* replace from konrad (5a2f382a6014)
+* add source (a37fe0606c6c)
+* add checklist article (d50cfc5d6475)
+* extend zitat (08082b416e86)
+* add de gruyter book (e28b2803a22b)
+* add list of pleonasma (c0a50f9b02ab)
+
+### Chore
+
+* generate documentation (83f5b8b55453)
+* add Jenkinsfile (8f9edc650956)
+* upgrade requirements.txt (03356dace112)
+* improve project setup (c22ca37f2a6d)
+* upgrade requirements.txt (ea150ece986b)
+* make requirements less strict (1751ad1c2d5f)
+
 ## v1.4.0
 
 ### Feature
