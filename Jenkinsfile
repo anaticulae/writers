@@ -18,6 +18,11 @@ pipeline {
                 sh 'baw sh "pip install ."'
             }
         }
+        stage('build'){
+            steps{
+                sh 'baw sh "baw test skip --generate"'
+            }
+        }
         stage('doctest'){
             steps{
                 sh 'baw test docs -n1'
