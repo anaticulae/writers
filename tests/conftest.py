@@ -29,7 +29,7 @@ def pytest_sessionstart():
 
 
 MSG = (f'could not locate: {writers.build()}\n'
-       'run `baw --test=generate` to generate')
+       'run `baw test skip --generate` to generate')
 
 
 @pytest.fixture
