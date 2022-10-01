@@ -15,13 +15,13 @@ import writers
 import writers.cli
 
 
-def run_writers(cmd: str, monkeypatch) -> int:
+def run_writers(cmd: str, mp) -> int:
     returncode = utilatest.run_command(
         cmd,
         writers.PROCESS,
         writers.cli.main,
-        success=True,
-        monkeypatch=monkeypatch,
+        expect=True,
+        mp=mp,
     )
     return returncode
 

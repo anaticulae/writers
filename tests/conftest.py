@@ -11,6 +11,8 @@ import os
 
 import pytest
 import utila
+from utilatest import mp  # pylint:disable=W0611
+from utilatest import td  # pylint:disable=W0611
 
 import writers.generator
 import writers.web
@@ -33,10 +35,10 @@ MSG = (f'could not locate: {writers.build()}\n'
 
 
 @pytest.fixture
-def app(testdir):
+def app(td):  # pylint:disable=W0621
     """Create and configure a new app instance for each test."""
     assert os.path.exists(writers.build()), MSG
-    root = testdir.tmpdir
+    root = td.tmpdir
     assert writers.generator.generate(path=root) == utila.SUCCESS
     application = writers.web.create(path=root)
     yield application

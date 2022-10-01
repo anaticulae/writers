@@ -18,10 +18,10 @@ import writers.generator
 
 @utilatest.longrun
 @pytest.mark.parametrize('show', [True, False])
-def test_generator_generate(show, testdir, monkeypatch):
-    root = testdir.tmpdir
+def test_generator_generate(show, td, mp):
+    root = td.tmpdir
 
-    with monkeypatch.context() as context:
+    with mp.context() as context:
         context.setattr(webbrowser, 'open', lambda x: x)
         writers.generator.generate(path=root, show=show)
 
