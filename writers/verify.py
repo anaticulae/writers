@@ -38,7 +38,7 @@ def validate(reference: str):
         HashNotExists: reference after # does not exists
     """
     source = writers.build()
-    assert os.path.exists(source), str(source)
+    assert os.path.exists(source), f'{source} run `writers --build`'
     reference = solve(reference)
     try:
         _path, _ref = reference.split('#')
