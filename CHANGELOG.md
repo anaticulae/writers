@@ -2,6 +2,18 @@
 
 Every noteable change is logged here.
 
+## v1.6.0 (2022-12-22)
+
+### Feature
+
+* make interface more informative (4b429bce9511)
+
+### Chore
+
+* use quick installer (9672452e9bf8)
+* upgrade requirements.txt (a7e529c4a28d)
+* upgrade pipeline (543f25607d58)
+
 ## v1.5.0 (2022-10-01)
 
 ### Feature
