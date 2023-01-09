@@ -2,6 +2,19 @@
 
 Every noteable change is logged here.
 
+## v1.6.1 (2023-01-09)
+
+### Documentation
+
+* happy New Year! (b6b509248176)
+
+### Chore
+
+* upgrade requirements.txt (e06356efd3b2)
+* remove default behavior (b42a3bce1520)
+* upgrade Jenkinsfile (181aa6d8373d)
+* upgrade pipe library (906aa2ccf26c)
+
 ## v1.6.0 (2022-12-22)
 
 ### Feature
