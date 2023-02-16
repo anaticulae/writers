@@ -12,11 +12,14 @@ import utila
 
 PACKAGES = [
     'writers',
-    'static',
+    'writers.static',
 ]
 ENTRY_POINTS = dict(console_scripts=[
     'writers = writers.cli:main',
 ])
 
 if __name__ == "__main__":
-    utila.install(__file__)
+    utila.install(
+        __file__,
+        include_package_data=True,
+    )
