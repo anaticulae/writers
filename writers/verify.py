@@ -8,7 +8,6 @@
 # =============================================================================
 
 import os
-import re
 
 import utila
 
@@ -71,12 +70,12 @@ def solve(reference: str):
     return reference.replace('#', '.html#')
 
 
-URL_PATTERN = r"""
+URL_PATTERN = utila.compiles(r"""
     (
         {(?P<link>[\w\-\.#/]+)}             # support .html and #anker in links
         (?:\[(?P<description>\w+)\])?       # optional description
     )
-"""
+""")
 
 
 def replace(content: str, url: str, template: callable = None) -> str:
@@ -98,7 +97,7 @@ def replace(content: str, url: str, template: callable = None) -> str:
     if not template:
         template = link_processor
     assert callable(template), type(template)
-    for item in re.findall(URL_PATTERN, content, re.VERBOSE):
+    for item in URL_PATTERN.findall(content):
         pattern, link, description = item
         if not description:
             description = 'weitere Informationen'
@@ -123,7 +122,7 @@ def validate_template(content: str):
     # do not detect jinja-value as broken reference
     content = content.replace('{{', '**')  # TODO: TO STUPID TO FIX REGEX
     invalid = []
-    for item in re.findall(URL_PATTERN, content, re.VERBOSE):
+    for item in URL_PATTERN.findall(content):
         matched, link, _ = item
         solved = solve(link)
         try:
