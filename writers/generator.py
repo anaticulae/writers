@@ -21,9 +21,10 @@ def generate(
     dirty: bool = False,
     verbose: bool = False,
 ) -> int:
-    """Use Sphinx to generate documentation. If `path` is None the
-    default doc output location is used, if not path must exists and the
-    generator will put the generated files there.
+    """Use Sphinx to generate documentation.
+
+    If `path` is None the default doc output location is used, if not path
+    must exists and the generator will put the generated files there.
 
     Args:
         path(str): path to write results
