@@ -10,3 +10,6 @@
 [project]
 short = writers
 name = let the docs grow
+
+[release]
+coverage_min = 88
