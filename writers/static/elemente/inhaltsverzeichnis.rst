@@ -95,7 +95,7 @@ Kapitelstruktur
 
 Bei der Einteilung der Kapitel ist drauf zu achten dass diese
 systematisch und ausgewogen strukturiert sind. Ein Strukturebene darf
-niemals nur einen Unterpunkt aufweisen[#theissen2017_211]_. Falls dies
+niemals nur einen Unterpunkt aufweisen [#theissen2017_211]_. Falls dies
 der Fall ist, kann dieser Unterpunkt in die Strukturebene integriert
 werden.
 

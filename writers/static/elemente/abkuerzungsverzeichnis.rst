@@ -100,5 +100,4 @@ Literatur und Quellen
 
 .. [#theissen2017_212_213] `Theissen:2017; Seite 212f. <{amazon:theissen_2017}>`_.
 .. [#din5007.2005] DIN 5007-1: 2005-08
-.. [#din2340.2009] todo:: DIN 2340: 2009-04
 .. [#bansch2020page90] `Bänsch A., Alewell D. (2020): Wissenschaftliches Arbeiten 12. Auflage Seite 90 <{amazon:bansch2020}>`_
