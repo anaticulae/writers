@@ -1,0 +1,85 @@
+[project]
+name = "writers"
+version = "1.6.1"
+description = ""
+requires-python = ">=3.12"
+authors = [
+    { name = "Helmut Konrad Schewe", email = "helmutus@outlook.com" },
+]
+dependencies = [
+    "wclub>=1.0.0,<2.0.0",
+    "utilo>=2.105.0,<3.0.0",
+    "Sphinx>=6.1.2,<7.0.0",
+    "Flask>=2.2.2,<3.0.0",
+]
+keywords = []
+classifiers = [
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+]
+license = "MIT"
+license-files = [
+    "LICENSE",
+]
+
+[project.readme]
+file = "README"
+content-type = "text/markdown"
+
+[project.optional-dependencies]
+dev = [
+    "utilotest>=1.0.4,<2.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/anaticulae/writers"
+Repository = "https://github.com/anaticulae/writers"
+
+[project.scripts]
+writers = "writers.cli:main"
+
+[build-system]
+requires = [
+    "setuptools>=82.0.1",
+    "wheel>=0.46.3",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.semantic_release]
+version_toml = [
+    "pyproject.toml:project.version",
+]
+
+[tool.semantic_release.changelog]
+mode = "init"
+output_format = "md"
+
+[tool.semantic_release.changelog.default_templates]
+changelog_file = "CHANGELOG"
+
+[tool.semantic_release.commit_parser_options]
+patch_tags = [
+    "fix",
+    "perf",
+    "build",
+    "chore",
+    "ci",
+    "docs",
+    "style",
+    "refactor",
+    "test",
+    "deps",
+]
+
+[tool.setuptools.packages.find]
+where = [
+    ".",
+]
+include = [
+    "writers",
+    "writers.static",
+]
+exclude = [
+    "tests/*",
+]
