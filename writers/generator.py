@@ -10,7 +10,7 @@
 import os
 import webbrowser
 
-import utila
+import utilo
 
 import writers
 
@@ -34,7 +34,7 @@ def generate(
     Returns:
         Returncode of Sphinx generation process.
     """
-    utila.log('generate docs')
+    utilo.log('generate docs')
     assert path is None or os.path.exists(path), str(path)
 
     source = writers.static()
@@ -46,16 +46,16 @@ def generate(
     warnings_as_errors = '-W --keep-going' if not dirty else ''
     cmd = f'sphinx-build {source} {build} -j=auto -n -v {warnings_as_errors}'
     if verbose:
-        utila.log(cmd)
-    completed = utila.run(cmd)
+        utilo.log(cmd)
+    completed = utilo.run(cmd)
 
     if completed.returncode:
-        utila.info(completed.stdout)
-        utila.error(completed.stderr)
+        utilo.info(completed.stdout)
+        utilo.error(completed.stderr)
         return completed.returncode
 
     if verbose:
-        utila.log(completed.stdout)
+        utilo.log(completed.stdout)
 
     if show:
         html = writers.html()
@@ -63,10 +63,10 @@ def generate(
             html = os.path.join(path, 'index.html')
         assert os.path.exists(html), html
         webbrowser.open(html)
-    return utila.SUCCESS
+    return utilo.SUCCESS
 
 
 def open_generated():
     html = writers.html()
     webbrowser.open(html)
-    return utila.SUCCESS
+    return utilo.SUCCESS

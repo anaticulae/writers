@@ -9,14 +9,14 @@
 
 import http
 
-import utilatest
+import utilotest
 
 import writers
 import writers.cli
 
 
 def run_writers(cmd: str, mp) -> int:
-    returncode = utilatest.run_command(
+    returncode = utilotest.run_command(
         cmd,
         writers.PROCESS,
         writers.cli.main,

@@ -11,7 +11,7 @@ import os
 
 import flask
 import jinja2
-import utila
+import utilo
 
 import writers
 
@@ -32,7 +32,7 @@ def create(path: str = None) -> flask.Flask:
     # Flask determines template- and static-folder automatically.
     templates = writers.build() if path is None else path
     static = os.path.join(templates, '_static')
-    utila.log(f'template folder: {writers.build()}')
+    utilo.log(f'template folder: {writers.build()}')
     result = flask.Flask(
         __name__,
         template_folder=templates,
@@ -45,7 +45,7 @@ def create(path: str = None) -> flask.Flask:
 
 
 def run():
-    utila.log('run webserver')
+    utilo.log('run webserver')
     app = create()
     app.run(port=writers.PORT)
-    return utila.SUCCESS
+    return utilo.SUCCESS

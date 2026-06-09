@@ -10,9 +10,9 @@
 import os
 
 import pytest
-import utila
-from utilatest import mp  # pylint:disable=W0611
-from utilatest import td  # pylint:disable=W0611
+import utilo
+from utilotest import mp  # pylint:disable=W0611
+from utilotest import td  # pylint:disable=W0611
 
 import writers.generator
 import writers.web
@@ -27,7 +27,7 @@ def pytest_sessionstart():
     build = writers.build()
     os.makedirs(build, exist_ok=True)
     returncode = writers.generator.generate(path=build)
-    assert returncode == utila.SUCCESS
+    assert returncode == utilo.SUCCESS
 
 
 MSG = (f'could not locate: {writers.build()}\n'
@@ -39,7 +39,7 @@ def app(td):  # pylint:disable=W0621
     """Create and configure a new app instance for each test."""
     assert os.path.exists(writers.build()), MSG
     root = td.tmpdir
-    assert writers.generator.generate(path=root) == utila.SUCCESS
+    assert writers.generator.generate(path=root) == utilo.SUCCESS
     application = writers.web.create(path=root)
     yield application
 

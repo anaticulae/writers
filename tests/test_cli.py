@@ -9,7 +9,7 @@
 
 import webbrowser
 
-import utilatest
+import utilotest
 
 import tests
 
@@ -18,12 +18,12 @@ def test_cli_help(mp):
     tests.run_writers('--help', mp=mp)
 
 
-@utilatest.longrun
+@utilotest.longrun
 def test_cli_build(td, mp):  # pylint:disable=W0613
     tests.run_writers('--build', mp=mp)
 
 
-@utilatest.longrun
+@utilotest.longrun
 def test_cli_show(td, mp):  # pylint:disable=W0613
     with mp.context() as context:
         context.setattr(webbrowser, 'open', lambda x: x)

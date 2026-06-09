@@ -9,7 +9,7 @@
 
 import os
 
-import utila
+import utilo
 
 import writers
 
@@ -47,7 +47,7 @@ def validate(reference: str):
     path = os.path.join(source, _path)
     if not os.path.exists(path):
         raise FileNotExists(path)
-    content = utila.file_read(path)
+    content = utilo.file_read(path)
     if _ref not in content:
         raise HashNotExists(_ref)
 
@@ -70,7 +70,7 @@ def solve(reference: str):
     return reference.replace('#', '.html#')
 
 
-URL_PATTERN = utila.compiles(r"""
+URL_PATTERN = utilo.compiles(r"""
     (
         {(?P<link>[\w\-\.#/]+)}             # support .html and #anker in links
         (?:\[(?P<description>\w+)\])?       # optional description

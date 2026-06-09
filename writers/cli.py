@@ -7,46 +7,46 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
-import utila
-import utila.cli
+import utilo
+import utilo.cli
 
 import writers
 import writers.generator
 import writers.web
 
 
-@utila.saveme
+@utilo.saveme
 def main():
     parser = create_parser()
-    args = utila.parse(parser)
+    args = utilo.parse(parser)
     verbose = args['verbose'] is not None
     if args['build'] or args['run']:
         if writers.generator.generate(
                 dirty=args['dirty'],
                 verbose=verbose,
         ):
-            return utila.FAILURE
+            return utilo.FAILURE
     if args['run']:
         if writers.web.run():
-            return utila.FAILURE
+            return utilo.FAILURE
     if args['show']:
         if writers.generator.open_generated():
-            return utila.FAILURE
-    return utila.SUCCESS
+            return utilo.FAILURE
+    return utilo.SUCCESS
 
 
 CMDS = [
-    utila.cli.Flag('--build', message=('generate docs')),
-    utila.cli.Flag('--show', message=('open generated docs')),
-    utila.cli.Flag('--run', message=('run webserver')),
-    utila.cli.Flag('--dirty', message=('ignore errors')),
+    utilo.cli.Flag('--build', message=('generate docs')),
+    utilo.cli.Flag('--show', message=('open generated docs')),
+    utilo.cli.Flag('--run', message=('run webserver')),
+    utilo.cli.Flag('--dirty', message=('ignore errors')),
 ]
 
 
 def create_parser():
-    parser = utila.cli.create_parser(
+    parser = utilo.cli.create_parser(
         todo=CMDS,
-        config=utila.ParserConfiguration(
+        config=utilo.ParserConfiguration(
             cacheflag=False,
             inputparameter=False,
             multiprocessed=False,

@@ -11,12 +11,12 @@ import os
 import webbrowser
 
 import pytest
-import utilatest
+import utilotest
 
 import writers.generator
 
 
-@utilatest.longrun
+@utilotest.longrun
 @pytest.mark.parametrize('show', [True, False])
 def test_generator_generate(show, td, mp):
     root = td.tmpdir
