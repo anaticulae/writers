@@ -1,369 +1,981 @@
-# Changelog
+# CHANGELOG
 
-Every noteable change is logged here.
+
+## v1.7.0 (2026-06-11)
+
+### Bug Fixes
+
+- **writers**: Adjust text
+  ([`40f6cc0`](https://github.com/anaticulae/writers/commit/40f6cc0cabe7a24376ca85b95472723fd5e544fa))
+
+### Chores
+
+- **baw**: Do not lower test cov
+  ([`2804096`](https://github.com/anaticulae/writers/commit/2804096df2b62aa8dbcd561a924a431c6b404299))
+
+- **git**: Do not track build artifacts
+  ([`784cc02`](https://github.com/anaticulae/writers/commit/784cc026518b8e5b05da4cc894a7be14c89fd0ad))
+
+- **github**: Add .github
+  ([`82c2ea9`](https://github.com/anaticulae/writers/commit/82c2ea9ab6a38241c6d350b97978a58d077723ab))
+
+- **Jenkins**: Add cov step
+  ([`e55ff9f`](https://github.com/anaticulae/writers/commit/e55ff9f05573946382bbe2d8d21a326e54afb133))
+
+- **Jenkins**: Convert pre step
+  ([`b975eba`](https://github.com/anaticulae/writers/commit/b975eba4f753fc76e15e63f3405c1990a0455e40))
+
+- **Jenkins**: Upgrade Jenkinsfile
+  ([`a4d42b1`](https://github.com/anaticulae/writers/commit/a4d42b10e2ac92e9d9757627ad69e9fa8c3b8258))
+
+- **Jenkins**: Upgrade pipe library
+  ([`ee88a64`](https://github.com/anaticulae/writers/commit/ee88a643f9b5933b9cbea396eebc54059a08228a))
+
+- **project**: Add modern approach
+  ([`4aa212b`](https://github.com/anaticulae/writers/commit/4aa212b32e559a2059042b75d51b39f85e773ab9))
+
+- **requirements**: Upgrade pyproject.toml
+  ([`5b23ed4`](https://github.com/anaticulae/writers/commit/5b23ed46dc14422de8357e3235cf8989d89601d1))
+
+- **requirements**: Upgrade requirements.txt
+  ([`9a90364`](https://github.com/anaticulae/writers/commit/9a903649caa4dd6f7e7f48d5a492be58c96244fe))
+
+### Code Style
+
+- **cli**: Solve linter warnings
+  ([`470757d`](https://github.com/anaticulae/writers/commit/470757dd522d14a5ecb26475e2c15b888965e406))
+
+- **generator**: Format docs
+  ([`49b8ab6`](https://github.com/anaticulae/writers/commit/49b8ab6495b20755d3c2d5a84bc39374791a7ced))
+
+### Documentation
+
+- **generator**: Extend interface documentation
+  ([`7fa661a`](https://github.com/anaticulae/writers/commit/7fa661ac6721bca17906c7f11e8710b3d52e65be))
+
+### Features
+
+- **writers**: Use dynamic versions
+  ([`561790d`](https://github.com/anaticulae/writers/commit/561790d54ae1f92d6fb53569717854ea7048f726))
+
+### Refactoring
+
+- **packages**: Replace with new names
+  ([`4462b91`](https://github.com/anaticulae/writers/commit/4462b9198d5b57fcab60099b32a344f84ba0a8cb))
+
+- **static**: Integrate docs into writers package
+  ([`f7eb1db`](https://github.com/anaticulae/writers/commit/f7eb1dbae15bb9679cd140ec938bc1a22ba10dd6))
+
+- **verify**: Compile regex
+  ([`dab71c2`](https://github.com/anaticulae/writers/commit/dab71c23264f19ee190aa8c1f7fa25251dc371f5))
+
 
 ## v1.6.1 (2023-01-09)
 
+### Chores
+
+- **baw**: Remove default behavior
+  ([`b42a3bc`](https://github.com/anaticulae/writers/commit/b42a3bce1520ece11f3a03e2ca33c80f4cf3017a))
+
+- **Jenkins**: Upgrade Jenkinsfile
+  ([`181aa6d`](https://github.com/anaticulae/writers/commit/181aa6d8373d4972304553224c2247811ddc87bb))
+
+- **Jenkins**: Upgrade pipe library
+  ([`906aa2c`](https://github.com/anaticulae/writers/commit/906aa2ccf26c972bfe34fd949131c6d96a3021ea))
+
+- **requirements**: Upgrade requirements.txt
+  ([`e06356e`](https://github.com/anaticulae/writers/commit/e06356efd3b29290408c310ed485379f733ef6e1))
+
 ### Documentation
 
-* happy New Year! (b6b509248176)
+- **copyright**: Happy New Year!
+  ([`b6b5092`](https://github.com/anaticulae/writers/commit/b6b5092481767c10267101faddc9882d57b01a4f))
 
-### Chore
-
-* upgrade requirements.txt (e06356efd3b2)
-* remove default behavior (b42a3bce1520)
-* upgrade Jenkinsfile (181aa6d8373d)
-* upgrade pipe library (906aa2ccf26c)
 
 ## v1.6.0 (2022-12-22)
 
-### Feature
+### Chores
 
-* make interface more informative (4b429bce9511)
+- **Jenkins**: Upgrade pipeline
+  ([`543f256`](https://github.com/anaticulae/writers/commit/543f25607d588beb6377145df6f90d74383c53cb))
 
-### Chore
+- **requirements**: Upgrade requirements.txt
+  ([`a7e529c`](https://github.com/anaticulae/writers/commit/a7e529c4a28db74dc1c78b0adc1a4d9df368e1e1))
 
-* use quick installer (9672452e9bf8)
-* upgrade requirements.txt (a7e529c4a28d)
-* upgrade pipeline (543f25607d58)
+- **setup**: Use quick installer
+  ([`9672452`](https://github.com/anaticulae/writers/commit/9672452e9bf886720501c3c8031b05015f5a04a3))
+
+### Features
+
+- **verify**: Make interface more informative
+  ([`4b429bc`](https://github.com/anaticulae/writers/commit/4b429bce9511d44d6c17ffc23a5e0f70808e8fe6))
+
 
 ## v1.5.0 (2022-10-01)
 
-### Feature
+### Chores
 
-* replace from konrad (5a2f382a6014)
-* add source (a37fe0606c6c)
-* add checklist article (d50cfc5d6475)
-* extend zitat (08082b416e86)
-* add de gruyter book (e28b2803a22b)
-* add list of pleonasma (c0a50f9b02ab)
+- **ci**: Add Jenkinsfile
+  ([`8f9edc6`](https://github.com/anaticulae/writers/commit/8f9edc650956ebcd8d54324d97a4c734d9536d9d))
 
-### Chore
+- **Jenkinsfile**: Generate documentation
+  ([`83f5b8b`](https://github.com/anaticulae/writers/commit/83f5b8b5545342e4f103e0954d4cf07e6d180dd1))
 
-* generate documentation (83f5b8b55453)
-* add Jenkinsfile (8f9edc650956)
-* upgrade requirements.txt (03356dace112)
-* improve project setup (c22ca37f2a6d)
-* upgrade requirements.txt (ea150ece986b)
-* make requirements less strict (1751ad1c2d5f)
+- **requirements**: Make requirements less strict
+  ([`1751ad1`](https://github.com/anaticulae/writers/commit/1751ad1c2d5fc051d90665a651adcbb630acc069))
 
-## v1.4.0
+- **requirements**: Upgrade requirements.txt
+  ([`03356da`](https://github.com/anaticulae/writers/commit/03356dace112f4f502e7bfb2db33fbe143a386bf))
 
-### Feature
+- **requirements**: Upgrade requirements.txt
+  ([`ea150ec`](https://github.com/anaticulae/writers/commit/ea150ece986b747fd7e26b76b5cc431c21c1d7c9))
 
-* add semikolon and extend divis (05036044f12a)
-* add Auslassungspunkte (580233f94f44)
-* add BIC and IBAN (acb47f104cde)
-* add date examples (9248ed41134e)
-* add introduction (4c074e22b0a5)
-* add paragraph Zeilenabstand (22060945d00d)
-* extend article (bb45a8498ba4)
-* add paragraph `Komma` (dae9a15223cb)
+- **test**: Improve project setup
+  ([`c22ca37`](https://github.com/anaticulae/writers/commit/c22ca37f2a6decde55ed0021f7c727fcd5e1600a))
 
-### Fix
+### Code Style
 
-* move ref to better place (f502abbffb46)
-* fix spelling error (b70d6df2a9c4)
-* add missing source tag (5eb5f509eae2)
-* fix spelling error (c2a6ff9f596a)
-* adjust source (a87129730dfa)
-* format examples (6cfbc68aa27b)
+- **changelog**: Adjust to automation tool
+  ([`8de55d1`](https://github.com/anaticulae/writers/commit/8de55d1c7981faec4c9404f9d1e34d6d5000628a))
+
+- **format**: Format code
+  ([`5340e7c`](https://github.com/anaticulae/writers/commit/5340e7c8db66aac46f53778e2be4d1304ff46a78))
+
+### Features
+
+- **abbr**: Add source
+  ([`a37fe06`](https://github.com/anaticulae/writers/commit/a37fe0606c6c8da7a70ea85673430b2ec3a58d36))
+
+- **abbr**: Replace from konrad
+  ([`5a2f382`](https://github.com/anaticulae/writers/commit/5a2f382a6014cb42ff6410ae5e6d7b454edbe055))
+
+- **druck**: Add checklist article
+  ([`d50cfc5`](https://github.com/anaticulae/writers/commit/d50cfc5d6475c0f61eb1e8327c54bd5bfd0ce8c5))
+
+- **literature**: Add de gruyter book
+  ([`e28b280`](https://github.com/anaticulae/writers/commit/e28b2803a22b7d47e6b3af3767b9d53fc642a570))
+
+- **pleonasma**: Add list of pleonasma
+  ([`c0a50f9`](https://github.com/anaticulae/writers/commit/c0a50f9b02ab4fbe5008a766612ccfb172277d7d))
+
+- **text**: Extend zitat
+  ([`08082b4`](https://github.com/anaticulae/writers/commit/08082b416e86b01e6967c63106ebef5598b563d8))
+
+### Refactoring
+
+- **cli**: Reduce complexity
+  ([`1a85b16`](https://github.com/anaticulae/writers/commit/1a85b16ee437730518c69b0ecd16fee402027351))
+
+### Testing
+
+- **fix**: Adjust hint to new baw API
+  ([`cde982a`](https://github.com/anaticulae/writers/commit/cde982a45e49fcd693f9d10b31e065f86dfcfc2b))
+
+- **refactor**: Use fixture shortcuts
+  ([`5cb7b5b`](https://github.com/anaticulae/writers/commit/5cb7b5b2ef36fdfe1f473700e3c809341eafec1f))
+
+- **refactor**: Use improved naming
+  ([`6a54444`](https://github.com/anaticulae/writers/commit/6a5444443c6c1b1115881a26dedd9f89a5cd6278))
+
+
+## v1.4.0 (2022-05-18)
+
+### Bug Fixes
+
+- **absatz**: Fix spelling error
+  ([`c2a6ff9`](https://github.com/anaticulae/writers/commit/c2a6ff9f596af0d7d3f684099d6d53b7a862ebe3))
+
+- **grauwert**: Adjust source
+  ([`a871297`](https://github.com/anaticulae/writers/commit/a87129730dfa537732665ace25d817f2ef91fbe9))
+
+- **kapitel**: Add missing source tag
+  ([`5eb5f50`](https://github.com/anaticulae/writers/commit/5eb5f509eae2c437fb3b4f74b43eb472e30d18c6))
+
+- **satz**: Fix spelling error
+  ([`b70d6df`](https://github.com/anaticulae/writers/commit/b70d6df2a9c4c0cfc55fc2a7b6555d8af012caf8))
+
+- **satzzeichen**: Move ref to better place
+  ([`f502abb`](https://github.com/anaticulae/writers/commit/f502abbffb46fd423d62c38d32cb381303774bd2))
+
+- **style**: Format examples
+  ([`6cfbc68`](https://github.com/anaticulae/writers/commit/6cfbc68aa27bfacbcdd67be50610f3383e7e77a6))
+
+### Chores
+
+- **project**: Move baw config
+  ([`e6a3d4a`](https://github.com/anaticulae/writers/commit/e6a3d4a49d3bbc12edce9cf8eb82d191bcf17627))
+
+- **requirements**: Upgrade requirements.txt
+  ([`aea0a8b`](https://github.com/anaticulae/writers/commit/aea0a8bd431dc09f8f2c2a08a7340d371103ef7a))
+
+- **requirements**: Upgrade requirements.txt
+  ([`fe1bda6`](https://github.com/anaticulae/writers/commit/fe1bda60ea1a0568183d7d58210073fa3f51170d))
+
+- **setup**: Cleanup setup file
+  ([`b851ce2`](https://github.com/anaticulae/writers/commit/b851ce20a84e82ba05edb11fece5d91f022d1bd7))
+
+### Code Style
+
+- **cleanup**: Cleanup project
+  ([`dd918b7`](https://github.com/anaticulae/writers/commit/dd918b75b7201aa5727ab23bdd093794f50de207))
+
+- **format**: Format code
+  ([`9b4b31b`](https://github.com/anaticulae/writers/commit/9b4b31b8ffa859afab8810992359451ed9e3074a))
+
+- **pages**: Fix typo
+  ([`5f51b2c`](https://github.com/anaticulae/writers/commit/5f51b2ca9ff83c3f8e90ac87ae01b1ffc6f82ea4))
+
+- **verify**: Improve code style
+  ([`1c5c5f7`](https://github.com/anaticulae/writers/commit/1c5c5f7f53e18844303e41b4579a63b64986351e))
 
 ### Documentation
 
-* adjust modules path (e76d991fc006)
-* Happy New Year! (8d7f747048cf)
-* Happy New Year! (ab39b9e734d9)
+- **copyright**: Happy New Year!
+  ([`8d7f747`](https://github.com/anaticulae/writers/commit/8d7f747048cfa7187e93e54038c71fc7f6d3afe0))
 
-## v1.3.0
+- **copyright**: Happy New Year!
+  ([`ab39b9e`](https://github.com/anaticulae/writers/commit/ab39b9e734d998ff225a51a190129618f8905934))
 
-### Feature
+- **fix**: Adjust modules path
+  ([`e76d991`](https://github.com/anaticulae/writers/commit/e76d991fc00661d33811c8d70a5aff16d1ba7bc2))
 
-* extend abkuerzungsverzeichnis (17c453ff20c9)
-* add article schreibweise to describe using spaces (6f8c4fe4b112)
-* improve satzzeichen article structure (e4bad8a146ba)
-* add paragraph zitierstrich and example (b0d150795915)
-* add grauwert article (54255170767a)
-* add sonderzeichen article (e663e38890f1)
+### Features
 
-### Fix
+- **grauwert**: Extend article
+  ([`bb45a84`](https://github.com/anaticulae/writers/commit/bb45a8498ba4b4595e0bf16cb501610ee4689f57))
 
-* fix umlaute (77179f3f90a1)
-* disable unused flags (400360e60458)
+- **satzzeichen**: Add Auslassungspunkte
+  ([`580233f`](https://github.com/anaticulae/writers/commit/580233f94f4421ddb64cf22825e9265c55d99d62))
 
-### Documentation
+- **satzzeichen**: Add introduction
+  ([`4c074e2`](https://github.com/anaticulae/writers/commit/4c074e22b0a572a6c057c759a41f76c17db7a60b))
 
-* fix typo (ebb58c252883)
+- **satzzeichen**: Add semikolon and extend divis
+  ([`0503604`](https://github.com/anaticulae/writers/commit/05036044f12a07e8cdee2c11a3d2a88c75c3c02a))
 
-## v1.2.0
+- **schreibweise**: Add BIC and IBAN
+  ([`acb47f1`](https://github.com/anaticulae/writers/commit/acb47f104cdef71d9ee50f356611f4e83dd261f2))
 
-### Feature
+- **schreibweise**: Add date examples
+  ([`9248ed4`](https://github.com/anaticulae/writers/commit/9248ed41134e7b654576bcb6713fdc1ab0fc1e8a))
 
-* split aufbau into four chapters (b2545bfb1741)
+- **schriftbild**: Add paragraph Zeilenabstand
+  ([`2206094`](https://github.com/anaticulae/writers/commit/22060945d00d7f50725eb65361fd47a6f54c1ccc))
 
-### Documentation
+- **zeichen**: Add paragraph `Komma`
+  ([`dae9a15`](https://github.com/anaticulae/writers/commit/dae9a15223cbfc2734283c5327c9707c5c761de5))
 
-* add first chapter information (1eb7251b7af5)
+### Testing
 
-## v1.1.4
+- **fix**: Allow collecting tests without generating docs
+  ([`a8c8863`](https://github.com/anaticulae/writers/commit/a8c886351f1291fc6914964907c8da0721b9400a))
 
-## v1.1.3
 
-## v1.1.2
+## v1.3.0 (2021-02-24)
 
-### Feature
+### Bug Fixes
 
-* add hyperlink article (e53d8186cf74)
+- **cli**: Disable unused flags
+  ([`400360e`](https://github.com/anaticulae/writers/commit/400360e60458b54d35bb669d30bc4197586546ad))
 
-## v1.1.1
+- **typo**: Fix umlaute
+  ([`77179f3`](https://github.com/anaticulae/writers/commit/77179f3f90a1c4e6040fac7d2540c59d1e41efb2))
 
-## v1.1.0
+### Chores
 
-### Feature
-
-* add article perspektive (0c156c15c155)
-* add paragraph schusterjunge, hurenkind und seitenanfang (e97a8fb96aab)
-* add headline umfang to citation (45996455a51b)
-
-## v1.0.1
-
-### Fix
-
-* do not detect jinja value as reference (cf8d73c021ad)
-
-## v1.0.0
-
-### Feature
-
-* add article `Absatz` (52ef9e5b01db)
-* add article pleonasmen (097b59fb3fd0)
-* add article `stilkunde` (7069a6838a54)
-* add article of the month (685040a60606)
-* add literature overview with ref-links (96507168847c)
-* change --generate parameter to --build (9137a3377f61)
-
-## v0.4.2
-
-## v0.4.1
-
-## v0.4.0
-
-### Feature
-
-* add information about readability (104e5429d530)
-
-## v0.3.27
-
-## v0.3.26
-
-## v0.3.25
-
-## v0.3.24
-
-## v0.3.23
-
-## v0.3.22
-
-## v0.3.21
-
-## v0.3.20
-
-## v0.3.19
-
-### Feature
-
-* add article how to write Einheitszeichen (e597053bd0a3)
-
-## v0.3.18
-
-## v0.3.17
-
-## v0.3.16
-
-## v0.3.15
-
-## v0.3.14
-
-## v0.3.13
-
-## v0.3.12
-
-## v0.3.11
-
-## v0.3.10
-
-## v0.3.9
-
-## v0.3.8
+- **requirements**: Upgrade requirements.txt
+  ([`0b81783`](https://github.com/anaticulae/writers/commit/0b81783c97c02cb33a55c8d24c4e88b95185acda))
 
 ### Documentation
 
-* use backlog instead (8a94bbd2befa)
+- **fix**: Fix typo
+  ([`ebb58c2`](https://github.com/anaticulae/writers/commit/ebb58c252883e7d4c34f64a9866fd25cda269b4d))
 
-## v0.3.7
+### Features
 
-### Fix
+- **abbr**: Extend abkuerzungsverzeichnis
+  ([`17c453f`](https://github.com/anaticulae/writers/commit/17c453ff20c9944266f8a7a7c41619ab21b862cb))
 
-* reduce headlines on main page (ebd1ea300fca)
+- **darstellung**: Add article schreibweise to describe using spaces
+  ([`6f8c4fe`](https://github.com/anaticulae/writers/commit/6f8c4fe4b112a5b0269423a238dbdfb894f56d37))
 
-### Documentation
+- **fussnote**: Add paragraph zitierstrich and example
+  ([`b0d1507`](https://github.com/anaticulae/writers/commit/b0d15079591520e31b1db864ac70007a60a58450))
 
-* add article `Schriftbild` (1419d881c34c)
-* add article `Satzzeichen` (459a7ba443d0)
+- **satz**: Improve satzzeichen article structure
+  ([`e4bad8a`](https://github.com/anaticulae/writers/commit/e4bad8a146bac83a6eb9677d33aa44f8088818b7))
 
-## v0.3.6
+- **tech**: Add grauwert article
+  ([`5425517`](https://github.com/anaticulae/writers/commit/54255170767a2775301ab089db1b7c7db33700c7))
 
-## v0.3.5
+- **tech**: Add sonderzeichen article
+  ([`e663e38`](https://github.com/anaticulae/writers/commit/e663e38890f101d1cf2be024255085c8ae940cfb))
 
-## v0.3.4
 
-## v0.3.3
-
-## v0.3.2
-
-## v0.3.1
-
-## v0.3.0
-
-### Feature
-
-* add article Sortiertung (cdb0b3b7e075)
-
-### Fix
-
-* fix headlines and index (df0586522ba3)
+## v1.2.0 (2020-12-18)
 
 ### Documentation
 
-* add article Zitat (f34958e7d1d7)
-* extend article Literaturverzeichnis (28197153138e)
-* add article Literaturverwaltung (aeb19fa09e97)
+- **aufbau**: Add first chapter information
+  ([`1eb7251`](https://github.com/anaticulae/writers/commit/1eb7251b7af54abf9e7473083c1b99848b98702e))
 
-## v0.2.9
+### Features
 
-## v0.2.8
+- **aufbau**: Split aufbau into four chapters
+  ([`b2545bf`](https://github.com/anaticulae/writers/commit/b2545bfb1741da29675c39c3ffec8306e5e13519))
+
+
+## v1.1.4 (2020-12-09)
+
+### Chores
+
+- **requirements**: Do not upgrade so often
+  ([`161823f`](https://github.com/anaticulae/writers/commit/161823f811778eda6b1d45067258780103236db1))
+
+- **requirements**: Upgrade requirements.txt
+  ([`cbb44d7`](https://github.com/anaticulae/writers/commit/cbb44d7ededac8a5c46ed592368898f49ac7a9e2))
+
+
+## v1.1.3 (2020-12-04)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`797cedc`](https://github.com/anaticulae/writers/commit/797cedc1ee8f2dbee45a5dac33f6e5300fe16b64))
+
+
+## v1.1.2 (2020-11-22)
+
+### Features
+
+- **docs**: Add hyperlink article
+  ([`e53d818`](https://github.com/anaticulae/writers/commit/e53d8186cf742f2465bede2000bfd6b558dab073))
+
+
+## v1.1.1 (2020-11-19)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`0f6037d`](https://github.com/anaticulae/writers/commit/0f6037dd07f703308acf82f779df5bbc18d211e9))
+
+
+## v1.1.0 (2020-10-28)
+
+### Features
+
+- **schrift**: Add paragraph schusterjunge, hurenkind und seitenanfang
+  ([`e97a8fb`](https://github.com/anaticulae/writers/commit/e97a8fb96aabc0c8ce24df2b4d37aba49969623b))
+
+- **text**: Add article perspektive
+  ([`0c156c1`](https://github.com/anaticulae/writers/commit/0c156c15c155ceb6906c1917de4fa083d7b7ba17))
+
+- **text**: Add headline umfang to citation
+  ([`4599645`](https://github.com/anaticulae/writers/commit/45996455a51bbd1b07a2355b6fcabc86ea20ea8d))
+
+
+## v1.0.1 (2020-10-28)
+
+### Bug Fixes
+
+- **verify**: Do not detect jinja value as reference
+  ([`cf8d73c`](https://github.com/anaticulae/writers/commit/cf8d73c021ad344c1faaae9c1dbd76893ee33476))
+
+
+## v1.0.0 (2020-10-28)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`d9da38b`](https://github.com/anaticulae/writers/commit/d9da38b856f135a67c3392474eb063faffac2ef0))
+
+- **requirements**: Upgrade requirements.txt
+  ([`3c753c0`](https://github.com/anaticulae/writers/commit/3c753c08e47556df475e4529144e8087b9e9c668))
+
+- **requirements**: Upgrade requirements.txt
+  ([`3847cf5`](https://github.com/anaticulae/writers/commit/3847cf56c52c3bd2f309028e6783c52c44f560bc))
+
+### Code Style
+
+- **build**: Beautify generation path
+  ([`64c2403`](https://github.com/anaticulae/writers/commit/64c24039decd181baa847f69c20899bf10177fd8))
+
+### Features
+
+- **article**: Add article pleonasmen
+  ([`097b59f`](https://github.com/anaticulae/writers/commit/097b59fb3fd044ea417e637cc0fc7f0781273d6a))
+
+- **aufbau**: Add article `Absatz`
+  ([`52ef9e5`](https://github.com/anaticulae/writers/commit/52ef9e5b01dbca00beb3091bdca60195515f1440))
+
+- **cli**: Change --generate parameter to --build
+  ([`9137a33`](https://github.com/anaticulae/writers/commit/9137a3377f61121d12b15214623aa94638d507b6))
+
+- **lit**: Add literature overview with ref-links
+  ([`9650716`](https://github.com/anaticulae/writers/commit/96507168847ce3a828bcd0e894be31f055b31739))
+
+- **month**: Add article of the month
+  ([`685040a`](https://github.com/anaticulae/writers/commit/685040a60606deb3870bf359a589a24f9c527b35))
+
+- **stil**: Add article `stilkunde`
+  ([`7069a68`](https://github.com/anaticulae/writers/commit/7069a6838a54a47d1152d56ea458908beae326a1))
+
+
+## v0.4.2 (2020-10-18)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`3c40a97`](https://github.com/anaticulae/writers/commit/3c40a973945781943fb4a0894f26c96c4a0deda8))
+
+
+## v0.4.1 (2020-10-08)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`aacf61f`](https://github.com/anaticulae/writers/commit/aacf61f01351f409621d36c2f2da15f2e4098172))
+
+
+## v0.4.0 (2020-09-26)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`f2b38ac`](https://github.com/anaticulae/writers/commit/f2b38ac063a2e191c19b20e69142e989dd745f28))
+
+### Features
+
+- **darstellung**: Add information about readability
+  ([`104e542`](https://github.com/anaticulae/writers/commit/104e5429d530e5011bfb42b1219e5851753a95cc))
+
+
+## v0.3.27 (2020-09-14)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`84fbd81`](https://github.com/anaticulae/writers/commit/84fbd818c4112006d3bb5711d0321b26a9e9ac5a))
+
+
+## v0.3.26 (2020-09-09)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`8672557`](https://github.com/anaticulae/writers/commit/867255783436552f8ba4080331c035aace0ccda7))
+
+
+## v0.3.25 (2020-08-28)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`be470cc`](https://github.com/anaticulae/writers/commit/be470cc6e6f8e602b68cefa20a942a083d04be63))
+
+
+## v0.3.24 (2020-07-29)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`5f3dfc9`](https://github.com/anaticulae/writers/commit/5f3dfc96ac75f1ea665dfa6adaa8c8dd7b429f4e))
+
+
+## v0.3.23 (2020-07-16)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`1b61f34`](https://github.com/anaticulae/writers/commit/1b61f3437f7f93b60abfd30a59e659d06d3955c1))
+
+
+## v0.3.22 (2020-07-02)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`b5d44a7`](https://github.com/anaticulae/writers/commit/b5d44a7fcd346260a35f096a597c8e4147dcc772))
+
+
+## v0.3.21 (2020-07-01)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`51b2cf6`](https://github.com/anaticulae/writers/commit/51b2cf6184dec948aa5978932c4917e4704fa4f0))
+
+
+## v0.3.20 (2020-06-30)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`c1f31a6`](https://github.com/anaticulae/writers/commit/c1f31a63cf9a36b190cf7c253a1d8464dee76f1c))
+
+
+## v0.3.19 (2020-06-29)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`002dc03`](https://github.com/anaticulae/writers/commit/002dc03e8bcbf1ef0950c547ef69ecbf6eff0682))
+
+### Features
+
+- **darstellung**: Add article how to write Einheitszeichen
+  ([`e597053`](https://github.com/anaticulae/writers/commit/e597053bd0a3edcaf2059e6cd9223d01761fb269))
+
+
+## v0.3.18 (2020-06-21)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`18be0b2`](https://github.com/anaticulae/writers/commit/18be0b2723ee60564f10cd6a06d79667b82b7359))
+
+
+## v0.3.17 (2020-06-17)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`b453661`](https://github.com/anaticulae/writers/commit/b453661e0180908d87189366751122dcd194afc6))
+
+
+## v0.3.16 (2020-06-11)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`1a00ec7`](https://github.com/anaticulae/writers/commit/1a00ec73e22e6702339333e629595dd2d710a6e9))
+
+
+## v0.3.15 (2020-06-07)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`a1981f2`](https://github.com/anaticulae/writers/commit/a1981f2f53e4deb21daf18acccc043d4c05f4f91))
+
+
+## v0.3.14 (2020-06-01)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`4da5c30`](https://github.com/anaticulae/writers/commit/4da5c3080a78a87a962f3e1caee9b5b6081b4e50))
+
+
+## v0.3.13 (2020-05-28)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`c398736`](https://github.com/anaticulae/writers/commit/c3987364f6f6a797f529c854e2ff2baf50018deb))
+
+
+## v0.3.12 (2020-05-23)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`9d22d72`](https://github.com/anaticulae/writers/commit/9d22d72bd44c0adac9b01ae5d680b83c9251769f))
+
+
+## v0.3.11 (2020-05-18)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`ae19a07`](https://github.com/anaticulae/writers/commit/ae19a07383402ee3086d4b759cea61dc640ba66f))
+
+
+## v0.3.10 (2020-05-07)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`7267a71`](https://github.com/anaticulae/writers/commit/7267a717b61ad6b20bec3a33973ae90cd3c6f2c1))
+
+
+## v0.3.9 (2020-04-30)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`2735909`](https://github.com/anaticulae/writers/commit/2735909dc2f0be260aabc877ac7e2540d9dfb389))
+
+
+## v0.3.8 (2020-04-23)
 
 ### Documentation
 
-* add article fussnote (1cf208c7286b)
+- **todo**: Use backlog instead
+  ([`8a94bbd`](https://github.com/anaticulae/writers/commit/8a94bbd2befae7a145cfeef0d33ca14b57d42f77))
 
-## v0.2.7
 
-### Feature
+## v0.3.7 (2020-04-15)
 
-* support .html extension in file name (5e903e34ed83)
+### Bug Fixes
 
-## v0.2.6
+- **darstellung**: Reduce headlines on main page
+  ([`ebd1ea3`](https://github.com/anaticulae/writers/commit/ebd1ea300fcad5f7511dd498e87e79c6512efb4d))
 
-### Feature
+### Chores
 
-* add --dirty flag to ignore warnings while building docs (f6992e28179d)
-* add --show flag to open generated docs (914c1f342d6d)
+- **refactor**: Use MANIFEST and move static folder
+  ([`be9cf61`](https://github.com/anaticulae/writers/commit/be9cf6167aeff89e928e002249f9ac96507be601))
 
-### Documentation
-
-* rename headline to general pattern (87e3caba3978)
-* rename deckblatt and fix index (ed827cb8f259)
-* add article table of literature (f6aaa6a2d901)
-* remove duplicated title out of toc (c07cf86cc2b6)
-* add article footer (9cc9a9129abd)
-* add article text editor (e9d5b7f8b6f1)
-* add article Abkuerzungsverzeichnis (17446f50e891)
-* add article abkuerzung (3ba6b0223904)
-* add article Festabstand (94c3b42351b6)
-* shorten references to get shorter links (53a77aceafd4)
-
-## v0.2.5
-
-### Feature
-
-* add method to verify links in template (57fbdcc8535a)
-* add method to replace url in linter message (e65cdf67197a)
-
-### Fix
-
-* fix correct parent class (ccf57a2e0fec)
-
-## v0.2.4
-
-### Feature
-
-* extend public API (b6ef4e5b762a)
-
-## v0.2.3
-
-### Feature
-
-* remove return value to ease doc testing (6ea437c9ba6a)
-
-## v0.2.2
-
-### Feature
-
-* move docs and add test generator step (f308564adcd2)
-
-## v0.2.1
-
-### Feature
-
-* add method to convert simple reference into file path (b033e0539b73)
-
-## v0.2.0
-
-### Feature
-
-* add method to validate reference (bbeb9b89e03b)
-* treat warnings as errors (135e0fbdadbd)
-* add verbose flag to gather more information about process (e8f54095fc6a)
-* add option to set template folder (5a72049c515e)
-* add option to path generator result folder (e6453a5ebddd)
-* reduce default verbosity of logging (be0e1bb95179)
-
-### Fix
-
-* log generator step (8bce9ea395a0)
-* fix rst directive (9b393cbba8af)
-* add missing resource (94394c3c4fd9)
-* increase overview due reducing content (926067061891)
-* fix sphinx errors (918d8bc056e7)
-* use new amazon ref link pattern (3b298c85f28b)
+- **requirements**: Upgrade requirements.txt
+  ([`869cf18`](https://github.com/anaticulae/writers/commit/869cf1801aeff77a0a21abf8af50b69c867afa08))
 
 ### Documentation
 
-* add howto extend the docs (6e5a17632654)
-* add article about page numbers and page border (fde0e0bcf614)
-* add toc guideline information (a59a80aa3232)
+- **article**: Add article `Satzzeichen`
+  ([`459a7ba`](https://github.com/anaticulae/writers/commit/459a7ba443d04beecb8f27f50d25cb74b145564d))
 
-## v0.1.2
+- **darstellung**: Add article `Schriftbild`
+  ([`1419d88`](https://github.com/anaticulae/writers/commit/1419d881c34c318424b29cf6846f0035476c2970))
 
-### Fix
 
-* run generate before run step (0b529aff244b)
+## v0.3.6 (2020-04-13)
 
-## v0.1.1
+### Chores
 
-### Fix
+- **requirements**: Upgrade requirements.txt
+  ([`00a8904`](https://github.com/anaticulae/writers/commit/00a8904fd568e75c2095540fb1b21a69bc444b0f))
 
-* extend install command with html generation (2920dfd66389)
 
-## v0.1.0
+## v0.3.5 (2020-04-09)
 
-### Feature
+### Chores
 
-* add article to describe content of title page (343bd7a9f962)
-* add example with table syntax (c3fb425c11fb)
-* add --run to serve pages via web server on port 5555 (c51922a19378)
-* add generate command to command line interface (b13250f8411e)
-* add command to generate docs (85ef9c51e36c)
+- **requirements**: Upgrade requirements.txt
+  ([`6f94c6a`](https://github.com/anaticulae/writers/commit/6f94c6aedf4c21a0b2974cf86f8d7d7d5d3f6fe3))
 
-### Fix
 
-* do not use basic style (d3f98aef68c7)
+## v0.3.4 (2020-04-09)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`55443d7`](https://github.com/anaticulae/writers/commit/55443d77d8000efed6e30d305331306a616fa440))
+
+
+## v0.3.3 (2020-04-08)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`d82bb37`](https://github.com/anaticulae/writers/commit/d82bb3759089677c1be0b445db3dcbd2ff08464d))
+
+
+## v0.3.2 (2020-03-27)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`adc1a40`](https://github.com/anaticulae/writers/commit/adc1a4036491fec0085d7ecde3754d751a32258d))
+
+
+## v0.3.1 (2020-03-22)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`5c3a5f5`](https://github.com/anaticulae/writers/commit/5c3a5f52fcc0e604a8774c6eaa88bee303cdff40))
+
+
+## v0.3.0 (2020-03-19)
+
+### Bug Fixes
+
+- **structure**: Fix headlines and index
+  ([`df05865`](https://github.com/anaticulae/writers/commit/df0586522ba3cf45b69aba3c5a872e6a071dab8d))
 
 ### Documentation
 
-* add eidesstattliche erklaerung (cc840910053b)
-* replace German Umlaute (3de8bf4c2590)
-* add first draft of global document structure (2d8694896a76)
+- **elemente**: Extend article Literaturverzeichnis
+  ([`2819715`](https://github.com/anaticulae/writers/commit/28197153138e97018e5115b4a7c8a7d0f50c8bd8))
 
-## v0.0.0 Initial release
+- **technik**: Add article Literaturverwaltung
+  ([`aeb19fa`](https://github.com/anaticulae/writers/commit/aeb19fa09e97b2456a62ce9ee9ac3bf530daddc9))
+
+- **text**: Add article Zitat
+  ([`f34958e`](https://github.com/anaticulae/writers/commit/f34958e7d1d7b63e864e1f246b3f162e7327b097))
+
+### Features
+
+- **text**: Add article Sortiertung
+  ([`cdb0b3b`](https://github.com/anaticulae/writers/commit/cdb0b3b7e075af747736e2ae7f317f068794702e))
+
+
+## v0.2.9 (2020-03-16)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`b96cb94`](https://github.com/anaticulae/writers/commit/b96cb941da2da0d22a54e649aa2169128bc59f6b))
+
+
+## v0.2.8 (2020-03-16)
+
+### Documentation
+
+- **text**: Add article fussnote
+  ([`1cf208c`](https://github.com/anaticulae/writers/commit/1cf208c7286b3b071f11a426a2b590e397c8c1ab))
+
+
+## v0.2.7 (2020-03-16)
+
+### Features
+
+- **verify**: Support .html extension in file name
+  ([`5e903e3`](https://github.com/anaticulae/writers/commit/5e903e34ed83e341078d8bfd59ea442648185b86))
+
+
+## v0.2.6 (2020-03-15)
+
+### Documentation
+
+- **elemente**: Add article footer
+  ([`9cc9a91`](https://github.com/anaticulae/writers/commit/9cc9a9129abdfbd7b926e764dbb8274067bba666))
+
+- **elemente**: Add article table of literature
+  ([`f6aaa6a`](https://github.com/anaticulae/writers/commit/f6aaa6a2d9011c27c9d8d2833eeb472531a0cc4d))
+
+- **elements**: Add article Abkuerzungsverzeichnis
+  ([`17446f5`](https://github.com/anaticulae/writers/commit/17446f50e89186164be60c6ce65b29e94464ab54))
+
+- **fix**: Rename headline to general pattern
+  ([`87e3cab`](https://github.com/anaticulae/writers/commit/87e3caba397803822bc4660af6174823b91cbfe2))
+
+- **index**: Remove duplicated title out of toc
+  ([`c07cf86`](https://github.com/anaticulae/writers/commit/c07cf86cc2b6967b971e657789a833cfffaa8539))
+
+- **ref**: Shorten references to get shorter links
+  ([`53a77ac`](https://github.com/anaticulae/writers/commit/53a77aceafd44465a5e7756b0cd4a6ed9117d2f8))
+
+- **refactor**: Rename deckblatt and fix index
+  ([`ed827cb`](https://github.com/anaticulae/writers/commit/ed827cb8f2594e93bdee0c6bbecd33bd1ab4a1cb))
+
+- **technical**: Add article Festabstand
+  ([`94c3b42`](https://github.com/anaticulae/writers/commit/94c3b42351b6dec37a5228460e26fe431b9a8597))
+
+- **technical**: Add article text editor
+  ([`e9d5b7f`](https://github.com/anaticulae/writers/commit/e9d5b7f8b6f11b087627375ff32d47373dc8e0b1))
+
+- **text**: Add article abkuerzung
+  ([`3ba6b02`](https://github.com/anaticulae/writers/commit/3ba6b0223904f3e0a7aff9a0c1debdf333da2e2f))
+
+### Features
+
+- **cli**: Add --dirty flag to ignore warnings while building docs
+  ([`f6992e2`](https://github.com/anaticulae/writers/commit/f6992e28179d17a8fccdf0de964f9f2464c2e3da))
+
+- **cli**: Add --show flag to open generated docs
+  ([`914c1f3`](https://github.com/anaticulae/writers/commit/914c1f342d6d5befc20ef2367a58b07326508467))
+
+### Testing
+
+- **cli**: Add test to test --show command
+  ([`6423798`](https://github.com/anaticulae/writers/commit/642379828a824acd433e93629e50728902026717))
+
+
+## v0.2.5 (2020-03-14)
+
+### Bug Fixes
+
+- **verify**: Fix correct parent class
+  ([`ccf57a2`](https://github.com/anaticulae/writers/commit/ccf57a2e0fec83d6c7484a8c9ba9a7bcdae4d570))
+
+### Features
+
+- **verify**: Add method to replace url in linter message
+  ([`e65cdf6`](https://github.com/anaticulae/writers/commit/e65cdf67197a40be727ea217aa960425dcd4b5d1))
+
+- **verify**: Add method to verify links in template
+  ([`57fbdcc`](https://github.com/anaticulae/writers/commit/57fbdcc8535a924974006a4829bac10227f2503e))
+
+
+## v0.2.4 (2020-03-14)
+
+### Features
+
+- **api**: Extend public API
+  ([`b6ef4e5`](https://github.com/anaticulae/writers/commit/b6ef4e5b762af4b6def5b6ec971d974dd49568a3))
+
+
+## v0.2.3 (2020-03-14)
+
+### Features
+
+- **verify**: Remove return value to ease doc testing
+  ([`6ea437c`](https://github.com/anaticulae/writers/commit/6ea437c9ba6af16d608e91413b738dc89b99b42b))
+
+
+## v0.2.2 (2020-03-14)
+
+### Features
+
+- **docs**: Move docs and add test generator step
+  ([`f308564`](https://github.com/anaticulae/writers/commit/f308564adcd208ef2ea52a1f7d2683ebdd085a1e))
+
+
+## v0.2.1 (2020-03-14)
+
+### Features
+
+- **reference**: Add method to convert simple reference into file path
+  ([`b033e05`](https://github.com/anaticulae/writers/commit/b033e0539b734c2eaad4f5d48ee6c6028036e8be))
+
+### Refactoring
+
+- **verify**: Simplify method name
+  ([`2d50cdc`](https://github.com/anaticulae/writers/commit/2d50cdcf37c4f65295b647723391bc5af0a92b1e))
+
+
+## v0.2.0 (2020-03-14)
+
+### Bug Fixes
+
+- **doc**: Fix rst directive
+  ([`9b393cb`](https://github.com/anaticulae/writers/commit/9b393cbba8af3e7050b60399e432bc58adf1d905))
+
+- **docs**: Fix sphinx errors
+  ([`918d8bc`](https://github.com/anaticulae/writers/commit/918d8bc056e7ff512c4e50de53f48d31613a47ae))
+
+- **docs**: Use new amazon ref link pattern
+  ([`3b298c8`](https://github.com/anaticulae/writers/commit/3b298c85f28b01c3912ab2d452e0e749ca2261cb))
+
+- **index**: Increase overview due reducing content
+  ([`9260670`](https://github.com/anaticulae/writers/commit/9260670618911505be9812041a3ce1775f556a6e))
+
+- **log**: Log generator step
+  ([`8bce9ea`](https://github.com/anaticulae/writers/commit/8bce9ea395a05bd6d141a6bacc0976e1736a5d7b))
+
+- **setup**: Add missing resource
+  ([`94394c3`](https://github.com/anaticulae/writers/commit/94394c3c4fd981432fbacb6f6a4b3397f34eba8a))
+
+### Chores
+
+- **setup**: Do not accept releases with linter errors
+  ([`f1fe2b4`](https://github.com/anaticulae/writers/commit/f1fe2b4d7c8b692c48d61c1c89095c745799dae9))
+
+### Documentation
+
+- **layout**: Add article about page numbers and page border
+  ([`fde0e0b`](https://github.com/anaticulae/writers/commit/fde0e0bcf6145c066a819abcdcbb163d49fddea3))
+
+- **readme**: Add howto extend the docs
+  ([`6e5a176`](https://github.com/anaticulae/writers/commit/6e5a17632654b575b4c763f00bf2a015bb469c80))
+
+- **toc**: Add toc guideline information
+  ([`a59a80a`](https://github.com/anaticulae/writers/commit/a59a80aa32323573b0d294391ce91de202426e89))
+
+### Features
+
+- **app**: Add option to set template folder
+  ([`5a72049`](https://github.com/anaticulae/writers/commit/5a72049c515e6f3715b8f559e832de78c8e71987))
+
+- **cli**: Add verbose flag to gather more information about process
+  ([`e8f5409`](https://github.com/anaticulae/writers/commit/e8f54095fc6a3a07120debfd88afe742fe2d656a))
+
+- **generator**: Add option to path generator result folder
+  ([`e6453a5`](https://github.com/anaticulae/writers/commit/e6453a5ebddd36402a71eb26a5fcfedb74c57278))
+
+- **generator**: Reduce default verbosity of logging
+  ([`be0e1bb`](https://github.com/anaticulae/writers/commit/be0e1bb95179a037bf4db9a6e07b8d4d2e2023ec))
+
+- **generator**: Treat warnings as errors
+  ([`135e0fb`](https://github.com/anaticulae/writers/commit/135e0fbdadbdac15d73d6c4c7024c1b908bf4cba))
+
+- **writers**: Add method to validate reference
+  ([`bbeb9b8`](https://github.com/anaticulae/writers/commit/bbeb9b89e03b53cb622e8480069b7692a5ed1b3c))
+
+### Testing
+
+- **cli**: Add tests to verify cli and web behavior
+  ([`2f5442e`](https://github.com/anaticulae/writers/commit/2f5442e32cefcd4c548df82eb2ab46e5d0dfc229))
+
+
+## v0.1.2 (2020-03-11)
+
+### Bug Fixes
+
+- **setup**: Run generate before run step
+  ([`0b529af`](https://github.com/anaticulae/writers/commit/0b529aff244b9c90713e3e992aecedbff1c1dabc))
+
+
+## v0.1.1 (2020-03-11)
+
+### Bug Fixes
+
+- **setup**: Extend install command with html generation
+  ([`2920dfd`](https://github.com/anaticulae/writers/commit/2920dfd66389d4b9fd8a369dc9db24b59819187f))
+
+### Code Style
+
+- **imports**: Organize imports
+  ([`e8d708f`](https://github.com/anaticulae/writers/commit/e8d708fa1aebe7f8c6a73dcf27bbcffbe44b5590))
+
+
+## v0.1.0 (2020-03-11)
+
+### Bug Fixes
+
+- **style**: Do not use basic style
+  ([`d3f98ae`](https://github.com/anaticulae/writers/commit/d3f98aef68c7bf0c73032beadcb70cb445aaa2c5))
+
+### Chores
+
+- **requirements**: Add template and documentation package
+  ([`5cafefc`](https://github.com/anaticulae/writers/commit/5cafefc224beb04429a6b31d06e12850e0061142))
+
+- **requirements**: Upgrade requirements.txt
+  ([`1583151`](https://github.com/anaticulae/writers/commit/1583151e156af76b294d88512c79a58db4e83b6f))
+
+- **resources**: Deliver required doc resources
+  ([`83994e7`](https://github.com/anaticulae/writers/commit/83994e74fdca0b13d8139879ee7476e29a0c5f0b))
+
+- **setup**: Run doc generator after installation
+  ([`1416561`](https://github.com/anaticulae/writers/commit/1416561ea05ca78455f79bdc92c08d34771c4db5))
+
+### Code Style
+
+- **cleanup**: Cleanup source code
+  ([`cb32def`](https://github.com/anaticulae/writers/commit/cb32defe5d6c4317f3518da724c6d248cd18fb4d))
+
+### Documentation
+
+- **add**: Add eidesstattliche erklaerung
+  ([`cc84091`](https://github.com/anaticulae/writers/commit/cc840910053b3293e6fccba54ca2497b1b14d374))
+
+- **fix**: Replace German Umlaute
+  ([`3de8bf4`](https://github.com/anaticulae/writers/commit/3de8bf4c259077a311e1dc293a11c7f01f93a498))
+
+- **structure**: Add first draft of global document structure
+  ([`2d86948`](https://github.com/anaticulae/writers/commit/2d8694896a76ff17d4bf6eab30637f804cee9a10))
+
+### Features
+
+- **cli**: Add command to generate docs
+  ([`85ef9c5`](https://github.com/anaticulae/writers/commit/85ef9c51e36ca37afcc2f4d37ed9fe14f5b0603e))
+
+- **cli**: Add generate command to command line interface
+  ([`b13250f`](https://github.com/anaticulae/writers/commit/b13250f8411e712465a16c7307bc3ac47f415e45))
+
+- **elemente**: Add article to describe content of title page
+  ([`343bd7a`](https://github.com/anaticulae/writers/commit/343bd7a9f962cd2871038142338498a883017f53))
+
+- **example**: Add example with table syntax
+  ([`c3fb425`](https://github.com/anaticulae/writers/commit/c3fb425c11fb45fed959178def4382049d7ac68d))
+
+- **web**: Add --run to serve pages via web server on port 5555
+  ([`c51922a`](https://github.com/anaticulae/writers/commit/c51922a19378134f5111ef2372e8753c22904b6b))
+
+
+## v0.0.0 (2020-03-06)
+
+- Initial Release
