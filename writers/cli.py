@@ -36,10 +36,10 @@ def main():
 
 
 CMDS = [
-    utilo.cli.Flag('--build', message=('generate docs')),
-    utilo.cli.Flag('--show', message=('open generated docs')),
-    utilo.cli.Flag('--run', message=('run webserver')),
-    utilo.cli.Flag('--dirty', message=('ignore errors')),
+    utilo.cli.Flag('--build', message='generate docs'),
+    utilo.cli.Flag('--show', message='open generated docs'),
+    utilo.cli.Flag('--run', message='run webserver'),
+    utilo.cli.Flag('--dirty', message='ignore errors'),
 ]
 
 
