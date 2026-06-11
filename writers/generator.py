@@ -16,7 +16,7 @@ import writers
 
 
 def generate(
-    path: str = None,
+    path: str | None = None,
     show: bool = False,
     dirty: bool = False,
     verbose: bool = False,
