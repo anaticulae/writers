@@ -7,6 +7,7 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
+import importlib.metadata
 import os
 
 from writers.generator import generate
@@ -18,10 +19,9 @@ from writers.verify import solve
 from writers.verify import validate
 from writers.verify import validate_template
 
-__version__ = '1.6.1'
-
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__)))
 PROCESS = 'writers'
+__version__ = importlib.metadata.version(PROCESS)
 
 PORT = 5555
 
